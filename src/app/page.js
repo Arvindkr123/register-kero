@@ -387,8 +387,211 @@ export default function Home() {
       </div>
 
 
+      {/* about section  */}
+      <div className="about-section bg-white flex justify-between p-10">
+        {/* Content Section */}
+        <div className="content flex flex-col w-full md:w-[664px] space-y-6">
+          <h1 className="text-[#EB8D15]">
+            WELCOME TO REGISTERKARO.IN
+          </h1>
+          <h2 className="text-2xl font-bold tracking-wider text-[#EB8D15]" >
+            <span className="text-black">About</span> Register Karo
+          </h2>
+          <p className="text-gray-800 leading-relaxed">
+            We have been using Intelegencia as our DevOps vendor for our field
+            service applications over the last couple of years, and I’m extremely
+            pleased with their performance, ability to execute, and willingness to
+            adapt in our ever-changing environment. Perry is an outstanding leader
+            who is fanatical about customer satisfaction. He has built a solid team
+            which has consistently delivered on projects, thereby exceeding
+            everyone’s expectations.
+            <br />
+            <br />
+            I would strongly recommend their services to any organization that is
+            looking for solid, reliable, and predictable outcomes.
+          </p>
+          <button
+            className="bg-[#1C4670] text-white px-6 py-2 w-40 flex items-center space-x-2"
+            aria-label="Learn more about Register Karo"
+          >
+            <span>Learn More</span>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.75 8C15.75 12.2812 12.2812 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.71875 3.71875 0.25 8 0.25C12.2812 0.25 15.75 3.71875 15.75 8ZM1.75 8C1.75 11.4688 4.53125 14.25 8 14.25C11.4375 14.25 14.25 11.4688 14.25 8C14.25 4.5625 11.4375 1.75 8 1.75C4.53125 1.75 1.75 4.5625 1.75 8ZM4 8.625V7.375C4 7.1875 4.15625 7 4.375 7H8V4.90625C8 4.59375 8.375 4.40625 8.625 4.65625L11.7188 7.75C11.875 7.90625 11.875 8.125 11.7188 8.28125L8.625 11.375C8.375 11.625 8 11.4375 8 11.0938V9H4.375C4.15625 9 4 8.84375 4 8.625Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+        </div>
+
+        {/* Image Section */}
+        <Image
+          src="/companyAboutPeople.png"
+          width={584}
+          height={422}
+          alt="Team collaboration illustration"
+          className="rounded-md shadow-lg"
+        />
+      </div>
+
+      {/* choose section area */}
+      <div className="bg-white p-10 flex justify-evenly
+      ">
+        <div className="flex flex-col gap-5">
+          <div className="flex justify-between gap-5">
+            <div className="content">
+              <h1 className="text-[#EB8D15] tracking-wider">WHY REGISTERKARO.IN</h1>
+              <h1 className="text-[#272D37] font-bold text-3xl tracking-wider my-5">Why Choose Register Karo</h1>
+              <p className="text-[#0D1216]">It is with consistent services and results that build trust with the people and that in <br />
+                turn help us to serve the business better.</p>
+            </div>
+
+            <div className="flex gap-5">
+              <div className="card bg-[#FCDDEC] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
+                <svg width="38" height="41" viewBox="0 0 38 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M35.3763 6.5625C36.7825 7.1875 37.72 8.51562 37.72 10C37.72 27.3438 27.095 36.9531 20.3763 39.7656C19.4388 40.1562 18.4231 40.1562 17.4856 39.7656C9.12625 36.25 0.220001 25.5469 0.220001 10C0.220001 8.51562 1.07938 7.1875 2.48563 6.5625L17.4856 0.3125C17.9544 0.15625 18.4231 0.078125 18.97 0.078125C19.4388 0.078125 19.9075 0.15625 20.3763 0.3125L35.3763 6.5625ZM18.97 34.9219C26.2356 31.25 32.4075 22.6562 32.6419 10.8594L18.97 5.15625V34.9219Z" fill="#F45C20" />
+                </svg>
+                <h1 className="text-black font-bold text-center my-4">Confidential & Safe</h1>
+                <h1 className="text-center text-gray-500">All your private information is safe <br />
+                  with us</h1>
+              </div>
+              <div className="card bg-[#F1FBF3] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M39.395 20C39.395 30.7031 30.645 39.375 20.02 39.375C9.31689 39.375 0.64502 30.7031 0.64502 20C0.64502 9.375 9.31689 0.625 20.02 0.625C30.645 0.625 39.395 9.375 39.395 20ZM17.7544 30.3125L32.1294 15.9375C32.5981 15.4688 32.5981 14.6094 32.1294 14.1406L30.3325 12.4219C29.8638 11.875 29.0825 11.875 28.6138 12.4219L16.895 24.1406L11.3481 18.6719C10.8794 18.125 10.0981 18.125 9.62939 18.6719L7.83252 20.3906C7.36377 20.8594 7.36377 21.7188 7.83252 22.1875L15.9575 30.3125C16.4263 30.7812 17.2856 30.7812 17.7544 30.3125Z" fill="#3DCD5C" />
+                </svg>
+
+                <h1 className="text-black font-bold text-center my-4">No Hidden Fee</h1>
+                <h1 className="text-center text-gray-500">Everything is put before you with <br />
+                  no hidden charges or conditions</h1>
+              </div>
+            </div>
+          </div>
+          <div className="flex gap-5 justify-end" >
+            <div className="card bg-[#EDF3FF] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.985 0.625C30.6881 0.625 39.36 9.29688 39.36 20C39.36 30.7031 30.6881 39.375 19.985 39.375C9.28189 39.375 0.610016 30.7031 0.610016 20C0.610016 9.29688 9.28189 0.625 19.985 0.625ZM26.235 13.75C24.8288 13.75 23.735 14.9219 23.735 16.25C23.735 17.6562 24.8288 18.75 26.235 18.75C27.5631 18.75 28.735 17.6562 28.735 16.25C28.735 14.9219 27.5631 13.75 26.235 13.75ZM13.735 13.75C12.3288 13.75 11.235 14.9219 11.235 16.25C11.235 17.6562 12.3288 18.75 13.735 18.75C15.0631 18.75 16.235 17.6562 16.235 16.25C16.235 14.9219 15.0631 13.75 13.735 13.75ZM28.8913 27.1094C29.985 25.7812 28.0319 24.2188 27.0163 25.4688C25.2194 27.5781 22.7194 28.75 19.985 28.75C17.2506 28.75 14.6725 27.5781 12.8756 25.4688C11.86 24.2188 9.90689 25.7812 11.0006 27.1094C13.1881 29.7656 16.4694 31.25 19.985 31.25C23.4225 31.25 26.7038 29.7656 28.8913 27.1094Z" fill="#2F6AE1" />
+              </svg>
+
+              <h1 className="text-black font-bold text-center my-4">Guaranteed Satisfaction</h1>
+              <h1 className="text-center text-gray-500">We ensure that you stay 100% <br />
+                satisfied with our offered services</h1>
+            </div>
+            <div className="card bg-[#F1FBF3] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
+              <svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.97 20C12.4231 20 7.97 15.5469 7.97 10C7.97 4.53125 12.4231 0 17.97 0C23.4388 0 27.97 4.53125 27.97 10C27.97 15.5469 23.4388 20 17.97 20ZM25.3919 22.5781C31.0169 22.8125 35.47 27.4219 35.47 33.0469V36.25C35.47 38.3594 33.7513 40 31.72 40H4.22C2.11063 40 0.470001 38.3594 0.470001 36.25V33.0469C0.470001 27.4219 4.845 22.8125 10.47 22.5781L14.22 37.5L16.72 26.875L14.22 22.5H21.72L19.22 26.875L21.72 37.5L25.3919 22.5781Z" fill="#D5414F" />
+              </svg>
 
 
+              <h1 className="text-black font-bold text-center my-4">Expert CA/CS Assistance</h1>
+              <h1 className="text-center text-gray-500">Prompt support from our in-house <br />
+                expert professionals</h1>
+            </div>
+            <div className="card bg-[#EDF3FF] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.985 0.625C30.6881 0.625 39.36 9.29688 39.36 20C39.36 30.7031 30.6881 39.375 19.985 39.375C9.28189 39.375 0.610016 30.7031 0.610016 20C0.610016 9.29688 9.28189 0.625 19.985 0.625ZM26.235 13.75C24.8288 13.75 23.735 14.9219 23.735 16.25C23.735 17.6562 24.8288 18.75 26.235 18.75C27.5631 18.75 28.735 17.6562 28.735 16.25C28.735 14.9219 27.5631 13.75 26.235 13.75ZM13.735 13.75C12.3288 13.75 11.235 14.9219 11.235 16.25C11.235 17.6562 12.3288 18.75 13.735 18.75C15.0631 18.75 16.235 17.6562 16.235 16.25C16.235 14.9219 15.0631 13.75 13.735 13.75ZM28.8913 27.1094C29.985 25.7812 28.0319 24.2188 27.0163 25.4688C25.2194 27.5781 22.7194 28.75 19.985 28.75C17.2506 28.75 14.6725 27.5781 12.8756 25.4688C11.86 24.2188 9.90689 25.7812 11.0006 27.1094C13.1881 29.7656 16.4694 31.25 19.985 31.25C23.4225 31.25 26.7038 29.7656 28.8913 27.1094Z" fill="#2F6AE1" />
+              </svg>
+
+              <h1 className="text-black font-bold text-center my-4">Guaranteed Satisfaction</h1>
+              <h1 className="text-center text-gray-500">We ensure that you stay 100% <br />
+                satisfied with our offered services</h1>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+
+
+      <div className="bg-[#1C4670] p-[48px] flex justify-between">
+        <div className="left">
+          <h1 className="text-whites tracking-wider font-bold text-xl mb-5">0ur Video Introductions</h1>
+          <p className="text-gray-400 text-sm">Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna <br /> vulputate pellentesque a diam tincidunt apis dui.</p>
+          <div className="content-img my-5">
+            <div className="flex items-center gap-3">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_8612_27)">
+                  <path d="M2 29C2 13.536 14.536 1 30 1C45.464 1 58 13.536 58 29C58 44.464 45.464 57 30 57C14.536 57 2 44.464 2 29Z" fill="#FFA229" shape-rendering="crispEdges" />
+                  <g filter="url(#filter1_d_8612_27)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M30 17C24.8454 17 20.6667 21.1787 20.6667 26.3333C20.6667 29.7392 22.491 32.719 25.2157 34.3488C25.3265 34.3386 25.44 34.3333 25.5556 34.3333H28.6667V30.3333H27.3334C26.597 30.3333 26 29.7364 26 29C26 28.2636 26.597 27.6667 27.3334 27.6667H30H32.6667C33.4031 27.6667 34 28.2636 34 29C34 29.7364 33.4031 30.3333 32.6667 30.3333H31.3334V34.3333H34.4445C34.56 34.3333 34.6735 34.3386 34.7843 34.3488C37.5091 32.719 39.3334 29.7392 39.3334 26.3333C39.3334 21.1787 35.1547 17 30 17ZM26 38.3333L26 37L34 37V38.3333C34 39.8061 32.8061 41 31.3334 41H28.6667C27.1939 41 26 39.8061 26 38.3333Z" fill="white" />
+                  </g>
+                </g>
+                <defs>
+                  <filter id="filter0_d_8612_27" x="0" y="0" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dy="1" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.04 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8612_27" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8612_27" result="shape" />
+                  </filter>
+                  <filter id="filter1_d_8612_27" x="18.6667" y="16" width="22.6667" height="28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dy="1" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.04 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8612_27" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8612_27" result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+              <p className="font-bold text-xl"> Explore ideas together</p>
+            </div>
+            <p className="font-light text-sm ml-[70px] text-gray-400">Engage audience segments and finally create actionable insights. Amplify vertical integration.</p>
+          </div>
+          <div className="content-img">
+            <div className="flex items-center gap-3">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_8612_39)">
+                  <path d="M2 29C2 13.536 14.536 1 30 1C45.464 1 58 13.536 58 29C58 44.464 45.464 57 30 57C14.536 57 2 44.464 2 29Z" fill="#FFA229" shape-rendering="crispEdges" />
+                  <g filter="url(#filter1_d_8612_39)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18 21.2667C18 19.7732 18 19.0265 18.2906 18.456C18.5463 17.9543 18.9543 17.5463 19.456 17.2906C20.0265 17 20.7732 17 22.2667 17H37.7333C39.2268 17 39.9735 17 40.544 17.2906C41.0457 17.5463 41.4537 17.9543 41.7094 18.456C42 19.0265 42 19.7732 42 21.2667V32.7333C42 34.2268 42 34.9735 41.7094 35.544C41.4537 36.0457 41.0457 36.4537 40.544 36.7094C39.9735 37 39.2268 37 37.7333 37H31.8855L34.9428 40.0573C35.4635 40.578 35.4635 41.4222 34.9428 41.9429C34.4221 42.4636 33.5779 42.4636 33.0572 41.9429L30 38.8857L26.9428 41.9429C26.4221 42.4636 25.5779 42.4636 25.0572 41.9429C24.5365 41.4222 24.5365 40.578 25.0572 40.0573L28.1145 37H22.2667C20.7732 37 20.0265 37 19.456 36.7094C18.9543 36.4537 18.5463 36.0457 18.2906 35.544C18 34.9735 18 34.2268 18 32.7333V21.2667ZM36.1311 22.5984C36.7211 23.0389 36.8423 23.8744 36.4017 24.4645L32.9148 29.1344C32.4807 29.7159 31.6866 29.8924 31.047 29.5498L28.4969 28.1837L25.6414 31.2432C25.139 31.7815 24.2952 31.8106 23.7569 31.3082C23.2186 30.8057 23.1895 29.962 23.6919 29.4237L27.1775 25.6891C27.6314 25.2028 28.3559 25.0829 28.9423 25.397L31.3959 26.7115L34.265 22.869C34.7055 22.279 35.541 22.1578 36.1311 22.5984Z" fill="white" />
+                  </g>
+                </g>
+                <defs>
+                  <filter id="filter0_d_8612_39" x="0" y="0" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dy="1" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.04 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8612_39" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8612_39" result="shape" />
+                  </filter>
+                  <filter id="filter1_d_8612_39" x="16" y="16" width="28" height="29.3334" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dy="1" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.04 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8612_39" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8612_39" result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+              <p className="font-bold text-xl">Bring those ideas to life</p>
+            </div>
+
+            <p className="font-light text-sm ml-[70px] text-gray-400">Engage audience segments and finally create actionable insights. Amplify vertical integration.</p>
+
+          </div>
+        </div>
+        <Image src="/Group 1261153023.png" width={640} height={420} alt='image' />
+      </div >
 
 
 
