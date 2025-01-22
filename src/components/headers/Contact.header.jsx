@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactHeader = () => {
   return (
-    <div class="bg-blue-800 p-2 text-white flex justify-end items-center h-[44px] pr-20">
-      <div class="flex items-center space-x-2">
+    <div class="bg-blue-800 p-2 text-white flex justify-end items-center h-[44px] sm:pr-20">
+      <div class="flex items-center sm:space-x-2">
         <p className="flex items-center">
           <svg
             stroke="currentColor"
