@@ -35,7 +35,7 @@ const ManageServices = () => {
                 fill="#A5C937"
               />
             </svg>
-            <div className="text-content text-black">
+            <div className="hidden sm:block text-content text-black">
               <h1>Get it On</h1>
               <h1>App Store</h1>
             </div>
@@ -66,7 +66,7 @@ const ManageServices = () => {
                 fill="#A5C937"
               />
             </svg>
-            <div className="text-content text-black">
+            <div className="hidden sm:block text-content text-black">
               <h1 className="text-sm text-wrap">
                 Get it On <br />
                 Google Play Store
