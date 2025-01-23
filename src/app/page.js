@@ -1,5 +1,9 @@
+"use client";
+
 import MainHero from "@/components/hero/MainHero";
+import TestimonialSlider from "@/components/testimonial_sider/TestiMonialSider";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -593,6 +597,292 @@ export default function Home() {
         <Image src="/Group 1261153023.png" width={640} height={420} alt='image' />
       </div >
 
+
+      {/* Happy client starts here */}
+      <div className="bg-white">
+        <div className="container">
+          <div className="content p-10 w-[800px] mx-auto">
+            <h1 className="text-center text-black font-bold text-2xl tracking-wider my-4">Our Happy Clients</h1>
+            <p className="text-center text-black/65 text-sm tracking-wide">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+          </div>
+          <Image src={"/happyClientImageWithCompay.png"} className="object-cover" width={1492} height={395} alt="happy client" />
+          <div className="flex justify-center cursor-pointer bg-white p-10">
+            <p className="flex items-center gap-3 text-[#1C4670]">Show more <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.16667 6H12M7.83333 1L12.2441 5.41074C12.5695 5.73618 12.5695 6.26382 12.2441 6.58926L7.83333 11" stroke="#1C4670" stroke-width="2" stroke-linecap="round" />
+            </svg></p>
+          </div>
+        </div>
+      </div>
+
+      {/* Contact Info Buttons */}
+
+      <div className="bg-[#FFA229] h-[154px] p-7 flex items-center justify-center">
+        <div className="container flex items-center justify-evenly">
+
+
+          <div className="card flex items-center gap-2 text-black">
+            <div className="w-[52px] h-[52px] bg-[#EB5757] inline-flex items-center justify-center rounded-full"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.2002 1.19922H22.8002V15.5992L15.6002 22.7992H1.2002V1.19922ZM4.8002 4.79922V5.99922H19.2002V4.79922H4.8002ZM4.8002 9.59922V10.7992H19.2002V9.59922H4.8002ZM12.0002 15.5992V14.3992H4.8002V15.5992H12.0002ZM14.4002 20.3992L20.4002 14.3992H14.4002V20.3992Z" fill="white" />
+            </svg>
+            </div>
+            <p>Fill up Application Form</p>
+          </div>
+
+
+          <div className="card flex items-center gap-2 text-black">
+            <div className="w-[52px] h-[52px] bg-[#EB5757] inline-flex items-center justify-center rounded-full">
+              <Image src="/contact-form 1.png" width={24} height={24} alt="contact image" />
+            </div>
+            <p>Make Online Payment</p>
+          </div>
+
+
+          <div className="card flex items-center gap-2 text-black">
+            <div className="w-[52px] h-[52px] bg-[#EB5757] inline-flex items-center justify-center rounded-full">
+              <Image src="/callCenterWorker.png" width={24} height={24} alt="contact image" />
+
+            </div>
+            <p>Executive will Process Application</p>
+          </div>
+
+
+          <div className="card card flex items-center gap-2 text-black">
+            <div className="w-[52px] h-[52px] bg-[#EB5757] inline-flex items-center justify-center rounded-full">
+              <Image src="/mailImage.png" width={24} height={24} alt="contact image" />
+
+            </div>
+            <p>Get Confirm Mail</p>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+      {/* Blogs start here */}
+      <div className="bg-white h-[1239px] p-5">
+        <div className="main text-center">
+          <h1 className="text-[#EB8D15] tracking-wider my-5">EXPLORE OUR BLOGS</h1>
+          <h1 className="text-black text-2xl tracking-wide font-bold">Accelerate Digital Transformation</h1>
+        </div>
+
+        <div className="blog-sections w-auto sm:w-[1280px] mt-5 m-auto">
+          <div className="blogs p-10 flex flex-wrap items-center gap-5">
+
+            {/* blog card start here */}
+            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+              <Image src={"/blogs/Image1.png"} width={384} height={240} alt='blog image' />
+
+              <div className="content text-black">
+                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">Prabhash Mishra • 1 Jan 2023 • Today</h1>
+                <Link href={"https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"} target="_blank" className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5">Small business & Startup <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                </Link>
+                <p className="text-black/65 text-sm">Like to know the secrets of transforming a 2-14 team <br /> into a 3x Super Bowl winning Dynasty?</p>
+
+
+              </div>
+
+              <div className="badges flex gap-3">
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Tax & Audit</p>
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Management</p>
+              </div>
+            </div>
+
+
+            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+              <Image src={"/blogs/Image2.png"} width={384} height={240} alt='blog image' />
+
+              <div className="content text-black">
+                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">Mahesh Kumar • 1 Jan 2023</h1>
+                <Link href={"https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"} target="_blank" className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5">Scale-Up Company Offer <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                </Link>
+                <p className="text-black/65 text-sm">Mental models are simple expressions of complex <br />processes or relationships.</p>
+
+
+              </div>
+
+              <div className="badges flex gap-3">
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Tax</p>
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Research</p>
+                <p className="bg-[#FFF6ED] text-[#C4320A] p-2">Complience</p>
+              </div>
+            </div>
+
+
+            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+              <Image src={"/blogs/Image1.png"} width={384} height={240} alt='blog image' />
+
+              <div className="content text-black">
+                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">Rakhi Verma • 1 Jan 2023</h1>
+                <Link href={"https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"} target="_blank" className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5">Growing Business Package <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                </Link>
+                <p className="text-black/65 text-sm">Like to know the secrets of transforming a 2-14 team <br /> into a 3x Super Bowl winning Dynasty?</p>
+
+
+              </div>
+
+              <div className="badges flex gap-3">
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Audit</p>
+                <p className="bg-[#EEF4FF] text-[#363F72] p-2">Money Back</p>
+              </div>
+            </div>
+
+
+
+            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+              <Image src={"/blogs/Image3.png"} width={384} height={240} alt='blog image' />
+
+              <div className="content text-black">
+                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">Karan Kumar • 1 Jan 2023</h1>
+                <Link href={"https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"} target="_blank" className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5">Scale-Up Company Offer <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                </Link>
+                <p className="text-black/65 text-sm">Collaboration can make our teams stronger,<br /> and our individual designs better.</p>
+
+
+              </div>
+
+              <div className="badges flex gap-3">
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Money</p>
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Management</p>
+              </div>
+            </div>
+
+
+            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+              <Image src={"/blogs/Image4.png"} width={384} height={240} alt='blog image' />
+
+              <div className="content text-black">
+                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">Richa Singh • 1 Jan 2023</h1>
+                <Link href={"https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"} target="_blank" className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5">Scale-Up Company Offer <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                </Link>
+                <p className="text-black/65 text-sm">JavaScript frameworks make development easy with <br /> extensive features and functionalities.</p>
+
+
+              </div>
+
+              <div className="badges flex gap-3">
+                <p className="bg-[#ECFDF3] text-green-700 p-2">Tax Returns</p>
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Tax & Audit</p>
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Management</p>
+              </div>
+            </div>
+
+
+            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+              <Image src={"/blogs/Image5.png"} width={384} height={240} alt='blog image' />
+
+              <div className="content text-black">
+                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">Prabhash Mishra • 1 Jan 2023 • Today</h1>
+                <Link href={"https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"} target="_blank" className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5">Scale-Up Company Offer <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 11L11 1M11 1H1M11 1V11" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                </Link>
+                <p className="text-black/65 text-sm">Like to know the secrets of transforming a 2-14 team <br /> into a 3x Super Bowl winning Dynasty?</p>
+
+
+              </div>
+
+              <div className="badges flex gap-3">
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Private Limited Company</p>
+                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Customer Success</p>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+          <div className="text-center">
+
+            <button className="bg-[#1C4670] text-center p-3">Show more blogs</button>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+      {/* Customer reviews goes here  */}
+      {/* <div className="bg-[#1C4670] h-[513px] p-10">
+        <div className="header flex justify-between">
+          <h1 className="font-bold text-3xl tracking-wider text-white">
+            What people say about us
+          </h1>
+          <div className="slider flex gap-4">
+            <div className="left cursor-pointer">
+              <Image src="/leftArrow.png" width={42.86} height={42.86} alt="Left arrow" />
+            </div>
+            <div className="right cursor-pointer">
+              <Image src="/rightArrow.png" width={42.86} height={42.86} alt="Right arrow" />
+            </div>
+          </div>
+        </div>
+
+        <div className="cards flex flex-wrap gap-4 mt-10">
+          {Array.from({ length: 10 }).map((_, index) => (
+            <div key={index} className="card bg-white w-[520px] my-10 rounded-md shadow-lg">
+              <div className="ratingAndQuote flex justify-between p-5">
+                <svg
+                  width="32"
+                  height="28"
+                  viewBox="0 0 32 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.2084 28V19.5804C18.2084 14.2937 19.3502 9.98602 21.6338 6.65734C23.9775 3.2634 27.4329 1.04429 32 0V6.36364C29.9568 6.88578 28.3343 7.8648 27.1324 9.3007C25.9305 10.6713 25.1493 12.3357 24.7887 14.2937H30.1972V28H18.2084ZM0 28V19.5804C0 14.2937 1.14178 9.98602 3.42535 6.65734C5.76901 3.2634 9.19437 1.04429 13.7014 0V6.36364C11.6582 6.88578 10.0357 7.8648 8.8338 9.3007C7.63192 10.6713 6.8507 12.3357 6.49014 14.2937H11.8986V28H0Z"
+                    fill="url(#gradient-{index})"
+                  />
+                  <defs>
+                    <linearGradient
+                      id={`gradient-${index}`}
+                      x1="16"
+                      y1="0"
+                      x2="16"
+                      y2="28"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#FFA229" />
+                      <stop offset="0.78125" stopColor="#1C4670" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+
+                <Image src="/reviews/Star.png" width={139} height={29} alt="Rating stars" />
+              </div>
+
+              <p className="text-gray-600 p-5">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident ea
+                commodo consequat aute irure sint amet occaecat cupidatat non proident.
+              </p>
+
+              <div className="user-section p-5 flex items-center gap-3 text-black">
+                <Image src="/reviews/user1.png" width={70} height={70} alt="User profile" />
+                <div className="info">
+                  <h1 className="font-bold text-sm">Chris</h1>
+                  <p className="font-light text-xs">President and CEO, PrintReach, USA</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div> */}
+
+      <TestimonialSlider />
 
 
     </>
