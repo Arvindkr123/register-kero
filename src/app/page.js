@@ -26,7 +26,7 @@ export default function Home() {
               for compliance business needs
             </h1>
             <hr className="bg-red-300 w-8 h-1" />
-            <p className="text-gray-700 sm:tracking-wide my-4">An online business compliance platform that helps entrepreneurs and <br /> other individuals with various, <span className="text-gray-900">registrations</span>, <span className="text-gray-900">tax filings</span> , and other <span className="text-gray-900">legal <br /> matters</span>.</p>
+            <p className="text-gray-700 hidden md:block sm:tracking-wide my-4">An online business compliance platform that helps entrepreneurs and <br /> other individuals with various, <span className="text-gray-900">registrations</span>, <span className="text-gray-900">tax filings</span> , and other <span className="text-gray-900">legal <br /> matters</span>.</p>
           </div>
 
 
@@ -35,7 +35,7 @@ export default function Home() {
             <Image src={"/Group_Statics.png"} width={583} height={50} alt="s" />
           </div> */}
 
-          <div className="flex gap-8 flex-wrap sm:items-center my-4">
+          <div className="flex gap-8 flex-col sm:flex-row sm:items-center my-4">
             {/* Customer Rating */}
             <div className="flex items-center gap-4">
               <div className="flex items-center justify-center w-12 h-12">
@@ -115,7 +115,7 @@ export default function Home() {
       </div>
 
       {/* company brands starts here */}
-      <div className="bg-white p-10">
+      <div className="bg-white p-5 sm:p-10">
         <div className="container flex flex-col items-center gap-5">
           <h1 className="text-xl text-black font-bold tracking-wider">Trusted By Over 100+ Startups and freelance business</h1>
           <div className="company-logo flex gap-5 flex-wrap items-center">
@@ -155,10 +155,10 @@ export default function Home() {
 
       {/* company services start here */}
 
-      <div className="bg-gray-100 flex flex-col items-center p-10">
-        <h1 className="text-[#EB8D15] tracking-wider">WELCOME TO REGISTERKARO.IN</h1>
+      <div className="bg-gray-100 flex flex-col items-center p-5 sm:p-10">
+        <h1 className="text-[#EB8D15] tracking-wider text-center">WELCOME TO REGISTERKARO.IN</h1>
         <h1 className="text-black text-3xl tracking-wider my-5 font-bold">Explore Our Services</h1>
-        <div className="container my-5 flex flex-wrap">
+        <div className="container my-5 flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
           <div className="card w-[433.33px] h-[317px] flex flex-col items-center">
             <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1_22041)">
@@ -389,13 +389,13 @@ export default function Home() {
 
         </div>
 
-        <div className="bg-[#1C4670] p-3 cursor-pointer -ml-32">See All Services</div>
+        <div className="bg-[#1C4670] p-3 cursor-pointer text-center md:-ml-32">See All Services</div>
 
       </div>
 
 
       {/* about section  */}
-      <div className="about-section bg-white flex justify-between p-10">
+      <div className="about-section bg-white flex flex-col md:flex-row sm:flex-wrap lg:flex-nowrap gap-5 md:justify-between p-5 sm:p-10">
         {/* Content Section */}
         <div className="content flex flex-col w-full md:w-[664px] space-y-6">
           <h1 className="text-[#EB8D15]">
@@ -448,10 +448,10 @@ export default function Home() {
       </div>
 
       {/* choose section area */}
-      <div className="bg-white p-10 flex justify-evenly
+      <div className="bg-white p-5 sm:p-10 flex flex-col sm:flex-row sm:justify-evenly
       ">
         <div className="flex flex-col gap-5">
-          <div className="flex justify-between gap-5">
+          <div className="flex flex-col lg:flex-row justify-between gap-5">
             <div className="content">
               <h1 className="text-[#EB8D15] tracking-wider">WHY REGISTERKARO.IN</h1>
               <h1 className="text-[#272D37] font-bold text-3xl tracking-wider my-5">Why Choose Register Karo</h1>
@@ -459,7 +459,7 @@ export default function Home() {
                 turn help us to serve the business better.</p>
             </div>
 
-            <div className="flex gap-5">
+            <div className="flex flex-col lg:flex-row gap-5">
               <div className="card bg-[#FCDDEC] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
                 <svg width="38" height="41" viewBox="0 0 38 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M35.3763 6.5625C36.7825 7.1875 37.72 8.51562 37.72 10C37.72 27.3438 27.095 36.9531 20.3763 39.7656C19.4388 40.1562 18.4231 40.1562 17.4856 39.7656C9.12625 36.25 0.220001 25.5469 0.220001 10C0.220001 8.51562 1.07938 7.1875 2.48563 6.5625L17.4856 0.3125C17.9544 0.15625 18.4231 0.078125 18.97 0.078125C19.4388 0.078125 19.9075 0.15625 20.3763 0.3125L35.3763 6.5625ZM18.97 34.9219C26.2356 31.25 32.4075 22.6562 32.6419 10.8594L18.97 5.15625V34.9219Z" fill="#F45C20" />
@@ -479,7 +479,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex gap-5 justify-end" >
+          <div className="flex gap-5 flex-col lg:flex-row justify-end" >
             <div className="card bg-[#EDF3FF] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19.985 0.625C30.6881 0.625 39.36 9.29688 39.36 20C39.36 30.7031 30.6881 39.375 19.985 39.375C9.28189 39.375 0.610016 30.7031 0.610016 20C0.610016 9.29688 9.28189 0.625 19.985 0.625ZM26.235 13.75C24.8288 13.75 23.735 14.9219 23.735 16.25C23.735 17.6562 24.8288 18.75 26.235 18.75C27.5631 18.75 28.735 17.6562 28.735 16.25C28.735 14.9219 27.5631 13.75 26.235 13.75ZM13.735 13.75C12.3288 13.75 11.235 14.9219 11.235 16.25C11.235 17.6562 12.3288 18.75 13.735 18.75C15.0631 18.75 16.235 17.6562 16.235 16.25C16.235 14.9219 15.0631 13.75 13.735 13.75ZM28.8913 27.1094C29.985 25.7812 28.0319 24.2188 27.0163 25.4688C25.2194 27.5781 22.7194 28.75 19.985 28.75C17.2506 28.75 14.6725 27.5781 12.8756 25.4688C11.86 24.2188 9.90689 25.7812 11.0006 27.1094C13.1881 29.7656 16.4694 31.25 19.985 31.25C23.4225 31.25 26.7038 29.7656 28.8913 27.1094Z" fill="#2F6AE1" />
@@ -518,7 +518,7 @@ export default function Home() {
 
 
 
-      <div className="bg-[#1C4670] p-[48px] flex justify-between">
+      <div className="bg-[#1C4670] p-[48px] flex flex-col gap-5 lg:flex-row justify-between">
         <div className="left">
           <h1 className="text-whites tracking-wider font-bold text-xl mb-5">0ur Video Introductions</h1>
           <p className="text-gray-400 text-sm">Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna <br /> vulputate pellentesque a diam tincidunt apis dui.</p>
@@ -604,7 +604,7 @@ export default function Home() {
       {/* Happy client starts here */}
       <div className="bg-white">
         <div className="container">
-          <div className="content p-10 w-[800px] mx-auto">
+          <div className="content p-5 sm:p-10 md:w-[800px] mx-auto">
             <h1 className="text-center text-black font-bold text-2xl tracking-wider my-4">Our Happy Clients</h1>
             <p className="text-center text-black/65 text-sm tracking-wide">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
           </div>
@@ -619,11 +619,11 @@ export default function Home() {
 
       {/* Contact Info Buttons */}
 
-      <div className="bg-[#FFA229] h-[154px] p-7 flex items-center justify-center">
-        <div className="container flex items-center justify-evenly">
+      <div className="bg-[#FFA229] md:h-[154px] p-7 flex items-center justify-center">
+        <div className="container flex flex-col md:flex-row items-center justify-evenly">
 
 
-          <div className="card flex items-center gap-2 text-black">
+          <div className="card flex flex-col md:flex-row items-center gap-2 text-black">
             <div className="w-[52px] h-[52px] bg-[#EB5757] inline-flex items-center justify-center rounded-full"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1.2002 1.19922H22.8002V15.5992L15.6002 22.7992H1.2002V1.19922ZM4.8002 4.79922V5.99922H19.2002V4.79922H4.8002ZM4.8002 9.59922V10.7992H19.2002V9.59922H4.8002ZM12.0002 15.5992V14.3992H4.8002V15.5992H12.0002ZM14.4002 20.3992L20.4002 14.3992H14.4002V20.3992Z" fill="white" />
             </svg>
@@ -632,7 +632,7 @@ export default function Home() {
           </div>
 
 
-          <div className="card flex items-center gap-2 text-black">
+          <div className="card flex items-center flex-col md:flex-row gap-2 text-black">
             <div className="w-[52px] h-[52px] bg-[#EB5757] inline-flex items-center justify-center rounded-full">
               <Image src="/contact-form 1.png" width={24} height={24} alt="contact image" />
             </div>
@@ -640,7 +640,7 @@ export default function Home() {
           </div>
 
 
-          <div className="card flex items-center gap-2 text-black">
+          <div className="card flex items-center flex-col md:flex-row gap-2 text-black">
             <div className="w-[52px] h-[52px] bg-[#EB5757] inline-flex items-center justify-center rounded-full">
               <Image src="/callCenterWorker.png" width={24} height={24} alt="contact image" />
 
@@ -649,7 +649,7 @@ export default function Home() {
           </div>
 
 
-          <div className="card card flex items-center gap-2 text-black">
+          <div className="card card flex  flex-col md:flex-row items-center gap-2 text-black">
             <div className="w-[52px] h-[52px] bg-[#EB5757] inline-flex items-center justify-center rounded-full">
               <Image src="/mailImage.png" width={24} height={24} alt="contact image" />
 
@@ -664,13 +664,13 @@ export default function Home() {
       </div>
 
       {/* Blogs start here */}
-      <div className="bg-white h-[1239px] p-5">
+      <div className="bg-white h-auto lg:h-[1239px] p-5">
         <div className="main text-center">
           <h1 className="text-[#EB8D15] tracking-wider my-5">EXPLORE OUR BLOGS</h1>
           <h1 className="text-black text-2xl tracking-wide font-bold">Accelerate Digital Transformation</h1>
         </div>
 
-        <div className="blog-sections w-auto sm:w-[1280px] mt-5 m-auto">
+        <div className="blog-sections w-auto xl:w-[1280px] mt-5 m-auto">
           <div className="blogs p-10 flex flex-wrap items-center gap-5">
 
             {/* blog card start here */}
@@ -890,19 +890,19 @@ export default function Home() {
       </div>
 
       {/* News Letter */}
-      <div className="min-h-[330px] bg-gradient-to-r from-[#FFA229] to-[#1C4670] flex items-center justify-center text-white">
+      <div className="min-h-[330px] bg-gradient-to-r from-[#FFA229] to-[#1C4670] flex  items-center justify-center text-white">
         <div className="text-center max-w-lg">
           <p className="text-sm font-semibold uppercase tracking-wide">1% of the industry</p>
-          <h1 className="text-2xl font-bold mt-4">
+          <h1 className="text-sm sm:text-2xl font-bold mt-4">
             Welcome to your new digital reality. Now.
           </h1>
-          <div className="mt-6 flex justify-center">
-            <input type="email" placeholder="Enter Your Email" className="w-full max-w-md px-4 py-2 rounded-l-md text-gray-800 focus:outline-none" />
-            <button className="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-r-md font-medium">
+          <div className="mt-6 flex flex-col sm:flex-row justify-center">
+            <input type="email" placeholder="Enter Your Email" className="w-auto md:max-w-md px-4 py-2 rounded-l-md text-gray-800 focus:outline-none" />
+            <button className="bg-orange-500 hover:bg-orange-600 px-16 sm:px-6  py-2 rounded-r-md font-medium">
               Submit
             </button>
           </div>
-          <div className="flex justify-center space-x-4 mt-6 text-sm ">
+          <div className="hidden sm:flex justify-center space-x-4 mt-6 text-sm ">
             <div className="flex items-center space-x-2 w-[207px]">
               <span className="p-1 rounded-full">
                 <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -936,7 +936,7 @@ export default function Home() {
       </div>
 
       {/* last-company sections start here */}
-      <div className="bg-white flex justify-center items-center gap-7 p-20">
+      <div className="hidden  bg-white md:flex justify-center items-center gap-7 p-20">
         <svg width="135" height="48" viewBox="0 0 135 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M27.116 16.7003C22.2353 16.7003 18.4217 20.4054 18.4217 25.3654C18.4217 30.3254 22.1389 33.9988 27.116 33.9988C32.0931 33.9988 35.875 30.262 35.875 25.3337C35.875 20.4371 32.1577 16.7003 27.116 16.7003ZM27.1489 30.4242C24.3695 30.4242 22.3328 28.2656 22.3328 25.3666C22.3328 22.4348 24.3366 20.2774 27.116 20.2774C29.9283 20.2774 31.9638 22.4677 31.9638 25.3666C31.9638 28.2656 29.9283 30.4242 27.1489 30.4242ZM36.9409 20.47H39.3652V33.678H43.2435V17.0223H36.9409V20.47ZM8.66141 20.2761C10.6981 20.2761 12.314 21.5323 12.9275 23.4007H17.0326C16.2886 19.4066 12.9921 16.7003 8.69434 16.7003C3.8136 16.7003 0 20.4054 0 25.3666C0 30.3279 3.71726 34 8.69434 34C12.8958 34 16.2569 31.2938 17.0008 27.2667H12.9275C12.3457 29.1351 10.7298 30.4242 8.69314 30.4242C5.88079 30.4242 3.90994 28.2656 3.90994 25.3666C3.91117 22.4348 5.8503 20.2761 8.66141 20.2761ZM110.63 23.7556L107.786 23.3373C106.429 23.1446 105.459 22.6933 105.459 21.6299C105.459 20.47 106.72 19.8907 108.432 19.8907C110.307 19.8907 111.503 20.6957 111.762 22.0165H115.511C115.09 18.6663 112.504 16.7016 108.53 16.7016C104.425 16.7016 101.71 18.7956 101.71 21.7591C101.71 24.5934 103.488 26.2374 107.075 26.7521L109.919 27.1704C111.309 27.3631 112.085 27.9119 112.085 28.9424C112.085 30.2632 110.728 30.8108 108.853 30.8108C106.558 30.8108 105.265 29.8766 105.071 28.4595H101.257C101.614 31.7133 104.166 34 108.82 34C113.055 34 115.866 32.067 115.866 28.7485C115.866 25.7849 113.83 24.2385 110.63 23.7556ZM41.3044 10.161C39.8824 10.161 38.8155 11.1915 38.8155 12.6087C38.8155 14.0258 39.8812 15.0563 41.3044 15.0563C42.7264 15.0563 43.7936 14.0258 43.7936 12.6087C43.7936 11.1915 42.7264 10.161 41.3044 10.161ZM98.2196 22.725C98.2196 19.1175 96.0221 16.7016 91.368 16.7016C86.9726 16.7016 84.5163 18.9249 84.0311 22.3396H87.8775C88.0714 21.0189 89.1056 19.9237 91.3035 19.9237C93.2756 19.9237 94.245 20.7932 94.245 21.8567C94.245 23.2422 92.4667 23.5958 90.2692 23.8215C87.2959 24.1434 83.6115 25.1739 83.6115 29.04C83.6115 32.0365 85.842 33.9683 89.3974 33.9683C92.1765 33.9683 93.9217 32.8085 94.7951 30.9718C94.9245 32.6146 96.1526 33.678 97.866 33.678H100.128V30.2315H98.2207V22.725H98.2196ZM94.4059 26.9131C94.4059 29.1363 92.4667 30.7791 90.1069 30.7791C88.6522 30.7791 87.4241 30.1669 87.4241 28.879C87.4241 27.2362 89.3959 26.785 91.206 26.5923C92.9512 26.4313 93.9206 26.0447 94.4059 25.3032V26.9131ZM73.8184 16.7003C71.6524 16.7003 69.8426 17.6028 68.55 19.1163V10H64.6717V33.678H68.4851V31.4877C69.7777 33.0658 71.6209 34 73.8184 34C78.4721 34 81.9956 30.3279 81.9956 25.3666C81.9956 20.4054 78.4076 16.7003 73.8184 16.7003ZM73.2367 30.4242C70.4572 30.4242 68.4206 28.2656 68.4206 25.3666C68.4206 22.4677 70.4891 20.2774 73.2682 20.2774C76.0807 20.2774 78.0514 22.436 78.0514 25.3666C78.0514 28.2656 76.0159 30.4242 73.2367 30.4242ZM55.3954 16.7003C52.8746 16.7003 51.2257 17.7309 50.2564 19.1809V17.0223H46.4096V33.6768H50.2879V24.6252C50.2879 22.0799 51.9037 20.2761 54.2955 20.2761C56.526 20.2761 57.915 21.8543 57.915 24.1422V33.678H61.7932V23.8531C61.7947 19.6639 59.6299 16.7003 55.3954 16.7003ZM134.353 24.8191C134.353 20.0517 130.863 16.7016 126.176 16.7016C121.199 16.7016 117.546 20.4383 117.546 25.3666C117.546 30.5535 121.457 34 126.241 34C130.281 34 133.448 31.6157 134.256 28.2339H130.215C129.633 29.7156 128.211 30.5535 126.304 30.5535C123.815 30.5535 121.94 29.0071 121.521 26.3008H134.352V24.8191H134.353ZM121.747 23.53C122.362 21.2103 124.107 20.0835 126.111 20.0835C128.309 20.0835 129.99 21.3396 130.377 23.53H121.747Z" fill="#0052FF" />
         </svg>

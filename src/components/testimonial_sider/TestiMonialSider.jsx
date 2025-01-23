@@ -33,10 +33,10 @@ const TestimonialSlider = () => {
   };
 
   return (
-    <div className="bg-[#1C4670] h-auto p-10 overflow-hidden">
+    <div className="bg-[#1C4670] h-auto p-5 sm:p-10 overflow-hidden">
       {/* Header Section */}
       <div className="header flex justify-between items-center">
-        <h1 className="font-bold text-3xl tracking-wider text-white">
+        <h1 className="font-bold text-2xl sm:text-3xl tracking-wider text-white">
           What people say about us
         </h1>
         <div className="slider-controls flex gap-4">
@@ -70,7 +70,7 @@ const TestimonialSlider = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="card bg-white w-full max-w-[520px] mx-auto flex-shrink-0 rounded-md shadow-lg ml-9"
+              className="card bg-white w-auto sm:max-w-[520px] mx-auto flex-shrink-0 rounded-md shadow-lg ml-9"
               style={{
                 flex: "0 0 100%", // Makes each slide take 100% width
               }}

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FaqQuestions = () => {
   return (
-    <div className="bg-white p-16">
+    <div className="bg-white p-5 sm:p-16">
       <main className="flex flex-col items-center justify-center gap-7">
         <header>
           <h1 className="text-center text-[#EB8D15]">FAQ</h1>
@@ -12,7 +12,7 @@ const FaqQuestions = () => {
           </h1>
         </header>
 
-        <div className="card flex items-center justify-between  gap-16 text-black w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
+        <div className="card flex items-center justify-between  gap-16 text-black w-auto xl:w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
           <Image
             src="/faq/letBar.png"
             width={10}
@@ -39,7 +39,7 @@ const FaqQuestions = () => {
           </svg>
         </div>
 
-        <div className="card flex items-center justify-between  gap-16 text-black w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
+        <div className="card flex items-center justify-between  gap-16 text-black w-auto xl:w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
           <Image
             src="/faq/letBar.png"
             width={10}
@@ -66,7 +66,7 @@ const FaqQuestions = () => {
           </svg>
         </div>
 
-        <div className="card flex items-center justify-between  gap-16 text-black w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
+        <div className="card flex items-center justify-between  gap-16 text-black w-auto xl:w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
           <Image
             src="/faq/letBar.png"
             width={10}
@@ -92,7 +92,7 @@ const FaqQuestions = () => {
             />
           </svg>
         </div>
-        <div className="card flex items-center justify-between  gap-16 text-black w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
+        <div className="card flex items-center justify-between  gap-16 text-black w-auto xl:w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
           <Image
             src="/faq/letBar.png"
             width={10}
@@ -119,7 +119,7 @@ const FaqQuestions = () => {
           </svg>
         </div>
 
-        <div className="card flex items-center justify-between  gap-16 text-black w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
+        <div className="card flex items-center justify-between  gap-16 text-black w-auto xl:w-[1272px] h-[70px] border-2 p-5 relative overflow-hidden rounded-l-md">
           <Image
             src="/faq/letBar.png"
             width={10}

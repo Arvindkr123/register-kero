@@ -77,7 +77,7 @@ const ManageServices = () => {
       </div>
 
       {/* Phone Image */}
-      <div className="absolute right-0 top-5">
+      <div className=" hidden md:block absolute right-0 top-5">
         <Image
           className="object-contain"
           src="/Phone.png"
