@@ -155,7 +155,7 @@ export default function Home() {
 
       {/* company services start here */}
 
-      <div className="bg-gray-100 flex flex-col items-center p-5 sm:p-10">
+      <div id="ourServicesId" className="bg-gray-100 flex flex-col items-center p-5 sm:p-10">
         <h1 className="text-[#EB8D15] tracking-wider text-center">WELCOME TO REGISTERKARO.IN</h1>
         <h1 className="text-black text-3xl tracking-wider my-5 font-bold">Explore Our Services</h1>
         <div className="container my-5 flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
@@ -395,7 +395,7 @@ export default function Home() {
 
 
       {/* about section  */}
-      <div className="about-section bg-white flex flex-col md:flex-row sm:flex-wrap lg:flex-nowrap gap-5 md:justify-between p-5 sm:p-10">
+      <div id="aboutIdRegisterKero" className="about-section bg-white flex flex-col md:flex-row sm:flex-wrap lg:flex-nowrap gap-5 md:justify-between p-5 sm:p-10">
         {/* Content Section */}
         <div className="content flex flex-col w-full md:w-[664px] space-y-6">
           <h1 className="text-[#EB8D15]">
@@ -664,7 +664,7 @@ export default function Home() {
       </div>
 
       {/* Blogs start here */}
-      <div className="bg-white h-auto lg:h-[1239px] p-5">
+      <div id="blogRegisterId" className="bg-white h-auto lg:h-[1239px] p-5">
         <div className="main text-center">
           <h1 className="text-[#EB8D15] tracking-wider my-5">EXPLORE OUR BLOGS</h1>
           <h1 className="text-black text-2xl tracking-wide font-bold">Accelerate Digital Transformation</h1>
@@ -890,7 +890,7 @@ export default function Home() {
       </div>
 
       {/* News Letter */}
-      <div className="min-h-[330px] bg-gradient-to-r from-[#FFA229] to-[#1C4670] flex  items-center justify-center text-white">
+      <div id='contactUsRegister' className="min-h-[330px] bg-gradient-to-r from-[#FFA229] to-[#1C4670] flex  items-center justify-center text-white">
         <div className="text-center max-w-lg">
           <p className="text-sm font-semibold uppercase tracking-wide">1% of the industry</p>
           <h1 className="text-sm sm:text-2xl font-bold mt-4">

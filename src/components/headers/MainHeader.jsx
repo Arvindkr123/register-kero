@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const MainHeader = () => {
@@ -32,13 +33,31 @@ const MainHeader = () => {
         {/* Navigation Section */}
         <nav className="hidden lg:flex items-center space-x-6">
           <ul className="flex items-center space-x-6 text-sm font-medium text-gray-700">
-            <li className="hover:text-orange-500 cursor-pointer">Home</li>
-            <li className="hover:text-orange-500 cursor-pointer flex items-center">
-              Our Services <span className="ml-1 text-sm">▼</span>
+            <li
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              className="hover:text-orange-500 cursor-pointer"
+            >
+              Home
             </li>
-            <li className="hover:text-orange-500 cursor-pointer">Blog</li>
-            <li className="hover:text-orange-500 cursor-pointer">Contact Us</li>
-            <li className="hover:text-orange-500 cursor-pointer">About Us</li>
+
+            <li className="hover:text-orange-500 cursor-pointer flex items-center">
+              <Link href="#ourServicesId">
+                Our Services <span className="ml-1 text-sm">▼</span>
+              </Link>
+            </li>
+
+            <li className="hover:text-orange-500 cursor-pointer">
+              <Link href={"#blogRegisterId"}>Blog</Link>
+            </li>
+            <Link
+              href={"#contactUsRegister"}
+              className="hover:text-orange-500 cursor-pointer"
+            >
+              Contact Us
+            </Link>
+            <li className="hover:text-orange-500 cursor-pointer">
+              <Link href={"#aboutIdRegisterKero"}>About Us</Link>
+            </li>
           </ul>
 
           {/* Search Icon */}
@@ -97,13 +116,23 @@ const MainHeader = () => {
 
           {/* Menu Items */}
           <div className="flex flex-col gap-6">
-            <div className="hover:text-orange-500 cursor-pointer">Home</div>
-            <div className="hover:text-orange-500 cursor-pointer">
-              Our Services
+            <div
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              className="hover:text-orange-500 cursor-pointer"
+            >
+              Home
             </div>
-            <div className="hover:text-orange-500 cursor-pointer">Blog</div>
             <div className="hover:text-orange-500 cursor-pointer">
-              Contact Us
+              <Link href="#ourServicesId">Our Services</Link>
+            </div>
+            <div className="hover:text-orange-500 cursor-pointer">
+              <Link href={"#blogRegisterId"}>Blog</Link>
+            </div>
+            <div className="hover:text-orange-500 cursor-pointer">
+              <Link href={"#contactUsRegister"}>Contact Us</Link>
+            </div>
+            <div className="hover:text-orange-500 cursor-pointer">
+              <Link href={"#aboutIdRegisterKero"}>About Us</Link>
             </div>
             <div className="hover:text-orange-500 cursor-pointer">About Us</div>
             <button className="bg-[#FFA229] text-white px-4 py-2 rounded-md hover:bg-[#FFA229] w-1/3">
