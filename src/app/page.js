@@ -14,7 +14,7 @@ export default function Home() {
       <div className="h-[585px] relative p-5 sm:p-20">
         <Image className="absolute w-full inset-0 object-cover -z-10" src={"/mainHero.png"} alt="hero section" fill={true} />
 
-        <div className="w-[700px] h-[466px] z-50">
+        <div className="w-auto sm:w-[700px] h-[466px] z-50">
           <div className="google-section relative">
             <Image src={"/ratingStar.png"} width={210} height={20} alt="rating" />
             <h1 className="text-black absolute -top-[3px] left-6 bottom-2 font-bold tracking-tighter">Google Rating</h1>
@@ -159,7 +159,7 @@ export default function Home() {
         <h1 className="text-[#EB8D15] tracking-wider text-center">WELCOME TO REGISTERKARO.IN</h1>
         <h1 className="text-black text-3xl tracking-wider my-5 font-bold">Explore Our Services</h1>
         <div className="container my-5 flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
-          <div className="card w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
             <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1_22041)">
                 <path d="M9.38393 27.5549V50.7835H51.6598V27.5549C51.0004 27.5549 50.3462 27.5619 49.6939 27.5549C48.4104 27.5373 47.4671 26.6292 47.4742 25.4269C47.4812 24.2227 48.4192 23.3358 49.7168 23.3252C50.951 23.3164 52.1852 23.3218 53.4211 23.3235C55.1313 23.3235 55.9388 24.1221 55.9388 25.8165C55.9388 33.8615 55.9388 41.9047 55.9388 49.9496V50.8329C56.5982 50.8329 57.2276 50.8294 57.8571 50.8329C59.3452 50.8417 60.2232 51.7691 60.1633 53.2642C60.0345 56.4624 57.367 59.137 54.1581 59.2869C54.0259 59.2939 53.8936 59.2975 53.7614 59.2975C38.2866 59.2975 22.81 59.3027 7.33518 59.2939C4.32907 59.2939 1.85367 57.3687 1.11316 54.5213C1.05145 54.2868 1.0109 54.0487 0.970348 53.8107C0.651225 51.8995 1.54336 50.8364 3.46162 50.8347C3.98879 50.8347 4.51596 50.8347 5.13658 50.8347V50.0395C5.13658 41.9734 5.13658 33.9073 5.13658 25.8412C5.13658 24.1169 5.92116 23.327 7.62785 23.3252C8.86201 23.3252 10.0962 23.32 11.3322 23.3252C12.6633 23.3341 13.6171 24.2421 13.6013 25.4692C13.5854 26.6681 12.6422 27.5408 11.3392 27.5549C10.7045 27.5619 10.0715 27.5549 9.38564 27.5549H9.38393Z" fill="#FFA229" />
@@ -185,7 +185,7 @@ export default function Home() {
             </div>
 
           </div>
-          <div className="card w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
             <svg width="61" height="56" viewBox="0 0 61 56" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1_22055)">
                 <path d="M31.8929 38.355C32.0246 38.5009 32.0921 38.5833 32.1664 38.6589C33.9541 40.4769 35.747 42.2898 37.5229 44.1199C37.7643 44.3688 37.9737 44.6796 38.1104 44.9989C38.3416 45.5448 38.1053 46.0238 37.5415 46.1818C37.2072 46.2762 36.8476 46.3208 36.4999 46.3225C30.7618 46.3311 25.0255 46.3311 19.2875 46.3208C18.9313 46.3208 18.5566 46.2538 18.224 46.1268C17.7192 45.9345 17.5403 45.4693 17.7783 44.9766C17.9404 44.6401 18.1649 44.3156 18.4231 44.0478C20.1569 42.2623 21.9058 40.4923 23.6547 38.7223C23.7459 38.6297 23.8827 38.585 23.9991 38.518C23.9653 38.4717 23.9316 38.4253 23.8978 38.379C23.8201 38.3721 23.7425 38.3619 23.6648 38.3619C16.6371 38.3601 9.60764 38.3567 2.57985 38.3584C1.30193 38.3584 0.483169 37.5429 0.481481 36.2347C0.478105 34.257 0.481481 32.2793 0.481481 30.3016C0.481481 21.067 0.481481 11.8342 0.481481 2.59967C0.478105 1.24171 1.27154 0.436539 2.60855 0.436539C9.35272 0.436539 16.0952 0.436539 22.8394 0.436539C29.8232 0.434823 36.8088 0.433105 43.7944 0.433105C46.9478 0.433105 50.1013 0.434823 53.2548 0.436539C54.6104 0.436539 55.4139 1.24858 55.4139 2.61684C55.4139 9.37918 55.4139 16.1399 55.4123 22.9022C55.4123 23.134 55.4359 23.3023 55.6587 23.4585C58.9759 25.8036 60.659 29.0294 60.4649 33.1446C60.291 36.8184 58.5775 39.6683 55.5929 41.7267C55.3937 41.8641 55.3497 41.9722 55.4156 42.1988C56.2631 45.1104 57.0936 48.0272 57.9496 50.9372C58.3142 52.175 58.2095 53.2806 57.2287 54.1974C55.7921 55.5382 53.3831 54.8909 52.8108 52.9905C52.2081 50.9836 51.6392 48.9664 51.0585 46.9526C50.7546 45.8985 50.4491 44.8444 50.1571 43.7868C50.0963 43.5671 50.0152 43.4761 49.7671 43.4709C45.9603 43.3885 42.9841 41.7319 40.8114 38.5592C40.7472 38.4648 40.6088 38.3653 40.5042 38.3635C37.6647 38.3533 34.8236 38.355 31.8912 38.355H31.8929ZM39.179 34.3738C38.7147 30.6844 39.6382 27.4877 42.189 24.88C44.7398 22.2722 47.8764 21.3142 51.4603 21.7709V4.49328H4.41488V34.3755H39.179V34.3738ZM57.0616 32.5557C57.0582 28.468 53.7106 24.9761 49.4446 25.1616C45.5889 25.3281 42.5435 28.5624 42.4928 32.4853C42.4388 36.5781 45.7088 39.9722 49.7603 39.9808C53.8034 39.9894 57.0987 36.6141 57.0616 32.5557Z" fill="#FFA229" />
@@ -216,7 +216,7 @@ export default function Home() {
             </div>
 
           </div>
-          <div className="card w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
             <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1_22071)">
                 <g clip-path="url(#clip1_1_22071)">
@@ -260,7 +260,7 @@ export default function Home() {
             </div>
 
           </div>
-          <div className="card w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
             <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1_22092)">
                 <g clip-path="url(#clip1_1_22092)">
@@ -298,7 +298,7 @@ export default function Home() {
             </div>
 
           </div>
-          <div className="card w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
             <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1_22107)">
                 <g clip-path="url(#clip1_1_22107)">
@@ -346,7 +346,7 @@ export default function Home() {
             </div>
 
           </div>
-          <div className="card w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
             <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1_22133)">
                 <g clip-path="url(#clip1_1_22133)">

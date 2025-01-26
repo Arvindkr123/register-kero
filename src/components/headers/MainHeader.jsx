@@ -83,7 +83,7 @@ const MainHeader = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`fixed top-0 left-0 w-full h-full z-20 bg-black text-white p-10 transform ${
+          className={`fixed top-0 left-0 w-full h-full z-20 bg-black text-white p-10 overflow-x-hidden transform ${
             open ? "translate-x-0" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out`}
         >
@@ -106,7 +106,7 @@ const MainHeader = () => {
               Contact Us
             </div>
             <div className="hover:text-orange-500 cursor-pointer">About Us</div>
-            <button className="bg-[#FFA229] text-white px-4 py-2 rounded-md hover:bg-[#FFA229]">
+            <button className="bg-[#FFA229] text-white px-4 py-2 rounded-md hover:bg-[#FFA229] w-1/3">
               Talk An Expert
             </button>
           </div>
