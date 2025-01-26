@@ -70,7 +70,7 @@ const TestimonialSlider = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="card bg-white w-[520px] flex-shrink-0 rounded-md shadow-lg -ml-[50%]"
+              className="card bg-white max-w-[520px] flex-shrink-0 rounded-md shadow-lg ml-9"
               style={{
                 flex: "0 0 100%",
               }}
