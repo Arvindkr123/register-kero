@@ -21,13 +21,7 @@ const MainHeader = () => {
               priority
             />
           </div>
-          <Image
-            src="/headerLogo1.png" // Ensure this file is in the "public" folder
-            alt="RegisterKaro Logo"
-            width={222}
-            height={56}
-            priority
-          />
+        <p className="text-black text-2xl sm:text-4xl font-bold">RegisterKeroHelp24X7</p>
         </div>
 
         {/* Navigation Section */}
@@ -47,7 +41,7 @@ const MainHeader = () => {
             </li>
 
             <li className="hover:text-orange-500 cursor-pointer">
-              <Link href={"#blogRegisterId"}>Blog</Link>
+              <Link href={"#blogRegisterId"}>Works</Link>
             </li>
             <Link
               href={"#contactUsRegister"}
@@ -61,19 +55,19 @@ const MainHeader = () => {
           </ul>
 
           {/* Search Icon */}
-          <div className="cursor-pointer">
+          {/* <div className="cursor-pointer">
             <Image
               src="/searchLogo.png" // Ensure this file is in the "public" folder
               alt="Search Icon"
               width={20}
               height={20}
             />
-          </div>
+          </div> */}
 
           {/* CTA Button */}
-          <button className="bg-[#FFA229] text-white px-4 py-2 rounded-md hover:bg-[#FFA229]">
+          {/* <button className="bg-[#FFA229] text-white px-4 py-2 rounded-md hover:bg-[#FFA229]">
             Talk An Expert
-          </button>
+          </button> */}
         </nav>
 
         {/* Mobile Menu Toggle Button */}
@@ -126,7 +120,7 @@ const MainHeader = () => {
               <Link href="#ourServicesId">Our Services</Link>
             </div>
             <div className="hover:text-orange-500 cursor-pointer">
-              <Link href={"#blogRegisterId"}>Blog</Link>
+              <Link href={"#blogRegisterId"}>Works</Link>
             </div>
             <div className="hover:text-orange-500 cursor-pointer">
               <Link href={"#contactUsRegister"}>Contact Us</Link>
@@ -134,10 +128,7 @@ const MainHeader = () => {
             <div className="hover:text-orange-500 cursor-pointer">
               <Link href={"#aboutIdRegisterKero"}>About Us</Link>
             </div>
-            <div className="hover:text-orange-500 cursor-pointer">About Us</div>
-            <button className="bg-[#FFA229] text-white px-4 py-2 rounded-md hover:bg-[#FFA229] w-1/3">
-              Talk An Expert
-            </button>
+            
           </div>
         </div>
       </div>

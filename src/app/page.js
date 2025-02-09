@@ -24,7 +24,7 @@ export default function Home() {
         </video>
 
         {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div className="w-auto sm:w-[700px] h-[466px] z-50">
           <div className="google-section relative">
@@ -39,20 +39,22 @@ export default function Home() {
             </h1>
           </div>
 
-          <div className="content-section bg-black bg-opacity-60 p-2">
+          <div className="content-section bg-black bg-opacity-60 p-2 my-4">
             <h1 className="text-gray-50 text-xl sm:text-3xl font-medium my-4">
               Simplify Your Business Compliance with RegisterKaroHelp 24X7 –
               Your One-Stop Solution for Online work, School home works, and
               online projects, online Job forms, for goverment and private
               sectors.
             </h1>
-          </div> 
+          </div>  
 
-          <div className="buttons flex my-4">
-            <p className="bg-blue-950 p-2 cursor-pointer">
+          <div className="buttons flex my-4 cursor-pointer">
+            <p className="bg-blue-950 text-white p-2 cursor-pointer">
               Talk to us for help - Arun Sharma(B.Tech) IT
             </p>
-            <p className="bg-blue-950 p-2 cursor-pointer">Call us 9086269401</p>
+            <p className="bg-blue-950 text-white p-2 cursor-pointer">
+              Call us 9086269401
+            </p>
           </div>
         </div>
       </div>
@@ -64,13 +66,13 @@ export default function Home() {
         className="bg-gray-100 flex flex-col items-center p-5 sm:p-10"
       >
         <h1 className="text-[#EB8D15] tracking-wider text-center">
-          WELCOME TO REGISTERKARO.IN
+          WELCOME TO REGISTERKARO HELP 24X7
         </h1>
         <h1 className="text-black text-3xl tracking-wider my-5 font-bold">
           Explore Our Services
         </h1>
         <div className="container my-5 flex flex-col sm:flex-row sm:flex-wrap sm:justify-center">
-          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center hover:shadow-lg hover:shadow-lime-500">
             <svg
               width="61"
               height="60"
@@ -136,7 +138,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center  hover:shadow-lg hover:shadow-lime-500">
             <svg
               width="61"
               height="56"
@@ -216,7 +218,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center hover:shadow-lg hover:shadow-lime-500">
             <svg
               width="61"
               height="61"
@@ -331,7 +333,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center hover:shadow-lg hover:shadow-lime-500">
             <svg
               width="61"
               height="61"
@@ -422,7 +424,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center hover:shadow-lg hover:shadow-lime-500">
             <svg
               width="61"
               height="61"
@@ -553,7 +555,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center">
+          <div className="card w-auto sm:w-[433.33px] h-[317px] flex flex-col items-center hover:shadow-lg hover:shadow-lime-500">
             <svg
               width="61"
               height="61"
@@ -650,10 +652,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div className="bg-[#1C4670] p-3 cursor-pointer text-center md:-ml-32">
-          See All Services
-        </div>
       </div>
 
       {/* about section  */}
@@ -663,45 +661,33 @@ export default function Home() {
       >
         {/* Content Section */}
         <div className="content flex flex-col w-full md:w-[664px] space-y-6">
-          <h1 className="text-[#EB8D15]">WELCOME TO REGISTERKARO.IN</h1>
+          <h1 className="text-[#EB8D15]">WELCOME TO REGISTERKARO HELP 24X7</h1>
           <h2 className="text-2xl font-bold tracking-wider text-[#EB8D15]">
-            <span className="text-black">About</span> Register Karo
+            <span className="text-black">About</span> Register Karo HELP 24X7
           </h2>
           <p className="text-gray-800 leading-relaxed">
-            We have been using Intelegencia as our DevOps vendor for our field
-            service applications over the last couple of years, and I’m
-            extremely pleased with their performance, ability to execute, and
-            willingness to adapt in our ever-changing environment. Perry is an
-            outstanding leader who is fanatical about customer satisfaction. He
-            has built a solid team which has consistently delivered on projects,
-            thereby exceeding everyone’s expectations.
+            क्या आपको भी दुकान पर जाकर काम करवाने में समय और मेहनत लगती है? लंबी
+            लाइन, भीड़, और समय की बर्बादी... ये सब परेशानियाँ अब खत्म हो सकती
+            हैं
             <br />
-            <br />I would strongly recommend their services to any organization
-            that is looking for solid, reliable, and predictable outcomes.
+            <br />
+            अब आप घर बैठे, ऑनलाइन अपना काम आसानी से कर सकते हैं। बस कुछ क्लिक्स
+            में, आपका काम हो जाएगा!
           </p>
-          <button
-            className="bg-[#1C4670] text-white px-6 py-2 w-40 flex items-center space-x-2"
-            aria-label="Learn more about Register Karo"
-          >
-            <span>Learn More</span>
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M15.75 8C15.75 12.2812 12.2812 15.75 8 15.75C3.71875 15.75 0.25 12.2812 0.25 8C0.25 3.71875 3.71875 0.25 8 0.25C12.2812 0.25 15.75 3.71875 15.75 8ZM1.75 8C1.75 11.4688 4.53125 14.25 8 14.25C11.4375 14.25 14.25 11.4688 14.25 8C14.25 4.5625 11.4375 1.75 8 1.75C4.53125 1.75 1.75 4.5625 1.75 8ZM4 8.625V7.375C4 7.1875 4.15625 7 4.375 7H8V4.90625C8 4.59375 8.375 4.40625 8.625 4.65625L11.7188 7.75C11.875 7.90625 11.875 8.125 11.7188 8.28125L8.625 11.375C8.375 11.625 8 11.4375 8 11.0938V9H4.375C4.15625 9 4 8.84375 4 8.625Z"
-                fill="white"
-              />
-            </svg>
-          </button>
+
+          <div className="buttons flex my-4 cursor-pointer">
+            <p className="bg-blue-950 text-white p-2 cursor-pointer">
+              Talk to us for help - Arun Sharma(B.Tech) IT
+            </p>
+            <p className="bg-blue-950 text-white p-2 cursor-pointer">
+              Call us 9086269401
+            </p>
+          </div>
         </div>
 
         {/* Image Section */}
         <Image
-          src="/companyAboutPeople.png"
+          src="/team-members.jpg"
           width={584}
           height={422}
           alt="Team collaboration illustration"
@@ -718,15 +704,16 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-between gap-5">
             <div className="content">
               <h1 className="text-[#EB8D15] tracking-wider">
-                WHY REGISTERKARO.IN
+                WHY REGISTERKARO HLEP 24X7
               </h1>
               <h1 className="text-[#272D37] font-bold text-3xl tracking-wider my-5">
-                Why Choose Register Karo
+                Why Choose Register Karo HLEP 24X7
               </h1>
-              <p className="text-[#0D1216]">
-                It is with consistent services and results that build trust with
-                the people and that in <br />
-                turn help us to serve the business better.
+              <p className="text-[#0D1216] text-lg leading-relaxed">
+                लगातार सेवाओं और परिणामों के साथ ही लोगों के साथ विश्वास बनता
+                है, <br />
+                और यही हमें व्यवसाय को बेहतर ढंग से सेवा प्रदान करने में मदद
+                करता है।
               </p>
             </div>
 
@@ -745,11 +732,11 @@ export default function Home() {
                   />
                 </svg>
                 <h1 className="text-black font-bold text-center my-4">
-                  Confidential & Safe
+                  गोपनीय और सुरक्षित
                 </h1>
                 <h1 className="text-center text-gray-500">
-                  All your private information is safe <br />
-                  with us
+                  आपकी सारी निजी जानकारी हमारे साथ <br />
+                  सुरक्षित है
                 </h1>
               </div>
               <div className="card bg-[#F1FBF3] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
@@ -767,11 +754,11 @@ export default function Home() {
                 </svg>
 
                 <h1 className="text-black font-bold text-center my-4">
-                  No Hidden Fee
+                  कोई छुपा हुआ शुल्क नहीं
                 </h1>
                 <h1 className="text-center text-gray-500">
-                  Everything is put before you with <br />
-                  no hidden charges or conditions
+                  आपके सामने सब कुछ स्पष्ट है, <br />
+                  बिना किसी छुपे हुए शुल्क या शर्तों के
                 </h1>
               </div>
             </div>
@@ -792,55 +779,11 @@ export default function Home() {
               </svg>
 
               <h1 className="text-black font-bold text-center my-4">
-                Guaranteed Satisfaction
+                गारंटीड संतुष्टि
               </h1>
               <h1 className="text-center text-gray-500">
-                We ensure that you stay 100% <br />
-                satisfied with our offered services
-              </h1>
-            </div>
-            <div className="card bg-[#F1FBF3] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
-              <svg
-                width="36"
-                height="40"
-                viewBox="0 0 36 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M17.97 20C12.4231 20 7.97 15.5469 7.97 10C7.97 4.53125 12.4231 0 17.97 0C23.4388 0 27.97 4.53125 27.97 10C27.97 15.5469 23.4388 20 17.97 20ZM25.3919 22.5781C31.0169 22.8125 35.47 27.4219 35.47 33.0469V36.25C35.47 38.3594 33.7513 40 31.72 40H4.22C2.11063 40 0.470001 38.3594 0.470001 36.25V33.0469C0.470001 27.4219 4.845 22.8125 10.47 22.5781L14.22 37.5L16.72 26.875L14.22 22.5H21.72L19.22 26.875L21.72 37.5L25.3919 22.5781Z"
-                  fill="#D5414F"
-                />
-              </svg>
-
-              <h1 className="text-black font-bold text-center my-4">
-                Expert CA/CS Assistance
-              </h1>
-              <h1 className="text-center text-gray-500">
-                Prompt support from our in-house <br />
-                expert professionals
-              </h1>
-            </div>
-            <div className="card bg-[#EDF3FF] w-[288px] h-[215px] text-black flex flex-col items-center p-5">
-              <svg
-                width="40"
-                height="40"
-                viewBox="0 0 40 40"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19.985 0.625C30.6881 0.625 39.36 9.29688 39.36 20C39.36 30.7031 30.6881 39.375 19.985 39.375C9.28189 39.375 0.610016 30.7031 0.610016 20C0.610016 9.29688 9.28189 0.625 19.985 0.625ZM26.235 13.75C24.8288 13.75 23.735 14.9219 23.735 16.25C23.735 17.6562 24.8288 18.75 26.235 18.75C27.5631 18.75 28.735 17.6562 28.735 16.25C28.735 14.9219 27.5631 13.75 26.235 13.75ZM13.735 13.75C12.3288 13.75 11.235 14.9219 11.235 16.25C11.235 17.6562 12.3288 18.75 13.735 18.75C15.0631 18.75 16.235 17.6562 16.235 16.25C16.235 14.9219 15.0631 13.75 13.735 13.75ZM28.8913 27.1094C29.985 25.7812 28.0319 24.2188 27.0163 25.4688C25.2194 27.5781 22.7194 28.75 19.985 28.75C17.2506 28.75 14.6725 27.5781 12.8756 25.4688C11.86 24.2188 9.90689 25.7812 11.0006 27.1094C13.1881 29.7656 16.4694 31.25 19.985 31.25C23.4225 31.25 26.7038 29.7656 28.8913 27.1094Z"
-                  fill="#2F6AE1"
-                />
-              </svg>
-
-              <h1 className="text-black font-bold text-center my-4">
-                Guaranteed Satisfaction
-              </h1>
-              <h1 className="text-center text-gray-500">
-                We ensure that you stay 100% <br />
-                satisfied with our offered services
+                हम सुनिश्चित करते हैं कि आप हमारी दी गई सेवाओं से <br />
+                100% संतुष्ट रहें
               </h1>
             </div>
           </div>
