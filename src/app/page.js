@@ -791,7 +791,7 @@ export default function Home() {
       </div>
 
       {/* Blogs start here */}
-      <div id="blogRegisterId" className="bg-white h-auto lg:h-[1239px] p-5">
+      <div id="blogRegisterId" className="bg-white h-auto  p-5">
         <div className="main text-center">
           <h1 className="text-[#EB8D15] tracking-wider my-5">
             EXPLORE OUR WORKS
@@ -802,301 +802,141 @@ export default function Home() {
         </div>
 
         <div className="blog-sections w-auto xl:w-[1280px] mt-5 m-auto">
-          <div className="blogs p-10 flex flex-wrap items-center gap-5">
+          <div className="blogs flex flex-wrap items-center gap-5">
             {/* blog card start here */}
-            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
-                src={"/blogs/Image1.png"}
+                src={"/IMG-20250209-WA0004.jpg"}
                 width={384}
-                height={240}
-                alt="blog image"
+                height={250}
+                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
-                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">
-                  Prabhash Mishra • 1 Jan 2023 • Today
-                </h1>
-                <Link
-                  href={
-                    "https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"
-                  }
+                <p
                   target="_blank"
                   className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
                 >
-                  Small business & Startup{" "}
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 11L11 1M11 1H1M11 1V11"
-                      stroke="#1A1A1A"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </Link>
+                  छोटे व्यवसाय और स्टार्टअप{" "}
+                </p>
                 <p className="text-black/65 text-sm">
-                  Like to know the secrets of transforming a 2-14 team <br />{" "}
-                  into a 3x Super Bowl winning Dynasty?
+                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
+                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
                 </p>
               </div>
-
-              <div className="badges flex gap-3">
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Tax & Audit</p>
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Management</p>
-              </div>
             </div>
-
-            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
-                src={"/blogs/Image2.png"}
+                src={"/IMG-20250209-WA0003.jpg"}
                 width={384}
-                height={240}
-                alt="blog image"
+                height={250}
+                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
-                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">
-                  Mahesh Kumar • 1 Jan 2023
-                </h1>
-                <Link
-                  href={
-                    "https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"
-                  }
+                <p
                   target="_blank"
                   className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
                 >
-                  Scale-Up Company Offer{" "}
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 11L11 1M11 1H1M11 1V11"
-                      stroke="#1A1A1A"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </Link>
+                  छोटे व्यवसाय और स्टार्टअप{" "}
+                </p>
                 <p className="text-black/65 text-sm">
-                  Mental models are simple expressions of complex <br />
-                  processes or relationships.
+                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
+                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
                 </p>
               </div>
-
-              <div className="badges flex gap-3">
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Tax</p>
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Research</p>
-                <p className="bg-[#FFF6ED] text-[#C4320A] p-2">Complience</p>
-              </div>
             </div>
-
-            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
-                src={"/blogs/Image1.png"}
+                src={"/Government-Jobs.png"}
                 width={384}
-                height={240}
-                alt="blog image"
+                height={250}
+                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
-                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">
-                  Rakhi Verma • 1 Jan 2023
-                </h1>
-                <Link
-                  href={
-                    "https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"
-                  }
+                <p
                   target="_blank"
                   className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
                 >
-                  Growing Business Package{" "}
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 11L11 1M11 1H1M11 1V11"
-                      stroke="#1A1A1A"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </Link>
+                  छोटे व्यवसाय और स्टार्टअप{" "}
+                </p>
                 <p className="text-black/65 text-sm">
-                  Like to know the secrets of transforming a 2-14 team <br />{" "}
-                  into a 3x Super Bowl winning Dynasty?
+                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
+                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
                 </p>
               </div>
-
-              <div className="badges flex gap-3">
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Audit</p>
-                <p className="bg-[#EEF4FF] text-[#363F72] p-2">Money Back</p>
-              </div>
             </div>
-
-            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
-                src={"/blogs/Image3.png"}
+                src={"/IMG-20250209-WA0005.jpg"}
                 width={384}
-                height={240}
-                alt="blog image"
+                height={250}
+                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
-                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">
-                  Karan Kumar • 1 Jan 2023
-                </h1>
-                <Link
-                  href={
-                    "https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"
-                  }
+                <p
                   target="_blank"
                   className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
                 >
-                  Scale-Up Company Offer{" "}
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 11L11 1M11 1H1M11 1V11"
-                      stroke="#1A1A1A"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </Link>
+                  छोटे व्यवसाय और स्टार्टअप{" "}
+                </p>
                 <p className="text-black/65 text-sm">
-                  Collaboration can make our teams stronger,
-                  <br /> and our individual designs better.
+                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
+                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
                 </p>
               </div>
-
-              <div className="badges flex gap-3">
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Money</p>
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Management</p>
-              </div>
             </div>
-
-            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
-                src={"/blogs/Image4.png"}
+                src={"/eBook.avif"}
                 width={384}
-                height={240}
-                alt="blog image"
+                height={250}
+                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
-                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">
-                  Richa Singh • 1 Jan 2023
-                </h1>
-                <Link
-                  href={
-                    "https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"
-                  }
+                <p
                   target="_blank"
                   className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
                 >
-                  Scale-Up Company Offer{" "}
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 11L11 1M11 1H1M11 1V11"
-                      stroke="#1A1A1A"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </Link>
+                  छोटे व्यवसाय और स्टार्टअप{" "}
+                </p>
                 <p className="text-black/65 text-sm">
-                  JavaScript frameworks make development easy with <br />{" "}
-                  extensive features and functionalities.
+                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
+                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
                 </p>
               </div>
-
-              <div className="badges flex gap-3">
-                <p className="bg-[#ECFDF3] text-green-700 p-2">Tax Returns</p>
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Tax & Audit</p>
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">Management</p>
-              </div>
             </div>
-
-            <div className="card w-[384px] h-[444px] flex flex-col justify-around">
+            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
-                src={"/blogs/Image5.png"}
+                src={"/IMG-20250209-WA0001.jpg"}
                 width={384}
-                height={240}
-                alt="blog image"
+                height={250}
+                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
-                <h1 className="text-sm font-semibold text-[#667085] tracking-wide">
-                  Prabhash Mishra • 1 Jan 2023 • Today
-                </h1>
-                <Link
-                  href={
-                    "https://www.registerkaro.in/post/the-companies-act-2013-section-138-internal-audit"
-                  }
+                <p
                   target="_blank"
                   className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
                 >
-                  Scale-Up Company Offer{" "}
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M1 11L11 1M11 1H1M11 1V11"
-                      stroke="#1A1A1A"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </Link>
+                  छोटे व्यवसाय और स्टार्टअप{" "}
+                </p>
                 <p className="text-black/65 text-sm">
-                  Like to know the secrets of transforming a 2-14 team <br />{" "}
-                  into a 3x Super Bowl winning Dynasty?
-                </p>
-              </div>
-
-              <div className="badges flex gap-3">
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">
-                  Private Limited Company
-                </p>
-                <p className="bg-[#F9F5FF] text-[#363F72] p-2">
-                  Customer Success
+                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
+                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
                 </p>
               </div>
             </div>
+          
           </div>
         </div>
       </div>
