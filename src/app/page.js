@@ -1,5 +1,6 @@
 "use client";
 
+import ContactUs from "@/components/contact-us/ContactUs";
 import FaqQuestions from "@/components/faq-questions/Faq-questions";
 import MainHero from "@/components/hero/MainHero";
 import ManageService from "@/components/manage_service/ManageService";
@@ -694,6 +695,10 @@ export default function Home() {
           className="rounded-md shadow-lg"
         />
       </div>
+
+      {/* Contact Us start here */}
+      <ContactUs/>
+      {/* Contact Us END here */}
 
       {/* choose section area */}
       <div
