@@ -1,8 +1,11 @@
+
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ContactHeader from "@/components/headers/Contact.header";
 import MainHeader from "@/components/headers/MainHeader";
 import Footer from "@/components/footer/Footer";
+import Image from "next/image";
+import WhatsAppButton from "@/components/whats-appIcon";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +19,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Welcome to Online help 24X7",
-  description: "We are the online helpers which can provide you the online service at home",
+  description:
+    "We are the online helpers which can provide you the online service at home",
 };
 
 export default function RootLayout({ children }) {
@@ -28,6 +32,8 @@ export default function RootLayout({ children }) {
         <ContactHeader />
         <MainHeader />
         {children}
+        <WhatsAppButton/>
+
         {/* <Footer /> */}
       </body>
     </html>

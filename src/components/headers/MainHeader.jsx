@@ -21,7 +21,7 @@ const MainHeader = () => {
               priority
             />
           </div>
-        <p className="text-black text-2xl sm:text-4xl font-bold">RegisterKeroHelp24X7</p>
+        <p className="text-black text-2xl sm:text-4xl font-bold">OnlineHelp24X7</p>
         </div>
 
         {/* Navigation Section */}

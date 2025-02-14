@@ -42,7 +42,7 @@ export default function Home() {
 
           <div className="content-section bg-black bg-opacity-60 p-2 my-4">
             <h1 className="text-gray-50 text-xl sm:text-3xl font-medium my-4">
-              Simplify Your Business Compliance with RegisterKaroHelp 24X7 –
+              Simplify Your Business Compliance with Online Help 24X7 –
               Your One-Stop Solution for Online work, School home works, and
               online projects, online Job forms, for goverment and private
               sectors.
@@ -67,7 +67,7 @@ export default function Home() {
         className="bg-gray-100 flex flex-col items-center p-5 sm:p-10"
       >
         <h1 className="text-[#EB8D15] tracking-wider text-center">
-          WELCOME TO REGISTERKARO HELP 24X7
+          WELCOME TO ONLINE HELP 24X7
         </h1>
         <h1 className="text-black text-3xl tracking-wider my-5 font-bold">
           Explore Our Services
@@ -351,9 +351,9 @@ export default function Home() {
       >
         {/* Content Section */}
         <div className="content flex flex-col w-full md:w-[664px] space-y-6">
-          <h1 className="text-[#EB8D15]">WELCOME TO REGISTERKARO HELP 24X7</h1>
+          <h1 className="text-[#EB8D15]">WELCOME TO ONLINE  HELP 24X7</h1>
           <h2 className="text-2xl font-bold tracking-wider text-[#EB8D15]">
-            <span className="text-black">About</span> Register Karo HELP 24X7
+            <span className="text-black">About</span> Online HELP 24X7
           </h2>
           <p className="text-gray-800 leading-relaxed">
             क्या आपको भी दुकान पर जाकर काम करवाने में समय और मेहनत लगती है? लंबी
@@ -398,10 +398,10 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-between gap-5">
             <div className="content">
               <h1 className="text-[#EB8D15] tracking-wider">
-                WHY REGISTERKARO HLEP 24X7
+                WHY ONLINE  HLEP 24X7
               </h1>
               <h1 className="text-[#272D37] font-bold text-3xl tracking-wider my-5">
-                Why Choose Register Karo HLEP 24X7
+                Why Choose ONLINE HLEP 24X7
               </h1>
               <p className="text-[#0D1216] text-lg leading-relaxed">
                 लगातार सेवाओं और परिणामों के साथ ही लोगों के साथ विश्वास बनता
