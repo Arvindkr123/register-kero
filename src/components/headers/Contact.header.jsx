@@ -2,9 +2,9 @@ import React from "react";
 
 const ContactHeader = () => {
   return (
-    <div class="bg-blue-800 p-2 text-white flex flex-col justify-end items-center h-[44px] sm:pr-20">
+    <div class="bg-blue-800 p-2 text-white flex flex-col justify-end items-center h-[44px] sm:pr-20 overflow-hidden">
       <div class="flex items-center sm:space-x-2">
-        <p className="flex items-center">
+        <p className="hidden sm:flex items-center">
           <svg
             stroke="currentColor"
             fill="currentColor"
