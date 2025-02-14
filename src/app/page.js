@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <div className="h-[585px] relative p-5 sm:p-20">
         <video
-          className="absolute inset-0 w-full h-[585px]  object-cover -z-10"
+          className="absolute inset-0 w-full aspect-video h-[585px]  object-cover -z-10"
           autoPlay
           loop
           muted
