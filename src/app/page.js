@@ -42,10 +42,9 @@ export default function Home() {
 
           <div className="content-section bg-black bg-opacity-60 p-2 my-4">
             <h1 className="text-gray-50 text-xl sm:text-3xl font-medium my-4">
-              Simplify Your Business Compliance with Online Help 24X7 –
-              Your One-Stop Solution for Online work, School home works, and
-              online projects, online Job forms, for goverment and private
-              sectors.
+              Simplify Your Business Compliance with Online Help 24X7 – Your
+              One-Stop Solution for Online work, School home works, and online
+              projects, online Job forms, for goverment and private sectors.
             </h1>
           </div>
 
@@ -351,7 +350,7 @@ export default function Home() {
       >
         {/* Content Section */}
         <div className="content flex flex-col w-full md:w-[664px] space-y-6">
-          <h1 className="text-[#EB8D15]">WELCOME TO ONLINE  HELP 24X7</h1>
+          <h1 className="text-[#EB8D15]">WELCOME TO ONLINE HELP 24X7</h1>
           <h2 className="text-2xl font-bold tracking-wider text-[#EB8D15]">
             <span className="text-black">About</span> Online HELP 24X7
           </h2>
@@ -398,7 +397,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-between gap-5">
             <div className="content">
               <h1 className="text-[#EB8D15] tracking-wider">
-                WHY ONLINE  HLEP 24X7
+                WHY ONLINE HLEP 24X7
               </h1>
               <h1 className="text-[#272D37] font-bold text-3xl tracking-wider my-5">
                 Why Choose ONLINE HLEP 24X7
@@ -496,140 +495,243 @@ export default function Home() {
         </div>
 
         <div className="blog-sections w-auto xl:w-[1280px] mt-5 m-auto">
-          <div className="blogs flex flex-wrap items-center gap-5">
+          <div className="blogs flex flex-wrap gap-5 justify-center">
             {/* blog card start here */}
-            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
+            <div className="card w-[384px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
                 src={"/IMG-20250209-WA0004.jpg"}
                 width={384}
                 height={250}
-                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                className="object-fill w-full hover:scale-90 transition-all"
                 alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
                 <p
                   target="_blank"
-                  className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
+                  className="flex items-center justify-between font-bold text-black cursor-pointer text-xl "
                 >
-                  छोटे व्यवसाय और स्टार्टअप{" "}
+                  Academic, Educational, Medical, Health, School, Lectures,
+                  Student, Course, Assignment, Webinar & Events Presentation
                 </p>
-                <p className="text-black/65 text-sm">
-                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
-                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
+                <div className="flex flex-wrap gap-3 p-4">
+                  {[
+                    "1st class",
+                    "2nd class",
+                    "3rd class",
+                    "4th Class",
+                    "5th class",
+                    "6th class",
+                    "7th class",
+                    "Any Class",
+                    "Assignments",
+                    "Engineering Assigments And PPT",
+                    "Any Class Assigments And PPT",
+                  ].map((tag, index) => (
+                    <span
+                      key={index}
+                      className="bg-blue-500 text-white text-sm font-medium px-4 py-1.5 rounded-full shadow-md hover:bg-blue-600 transition-colors duration-300 cursor-pointer"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <p>
+                  Let me handle your assignment or project presentation
+                  effectively as you maximize your time on some other important
+                  tasks, while working with your budget and getting it done
+                  swiftly within 24hrs.
                 </p>
               </div>
             </div>
-            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
+            <div className="card w-[384px]  flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
+              <Image
+                src={
+                  "/works/do-school-software-project-for-developer-students.png"
+                }
+                width={384}
+                height={250}
+                className="object-fill w-full hover:scale-90 transition-all"
+                alt="ब्लॉग छवि"
+              />
+
+              <div className="content text-black">
+                <p
+                  target="_blank"
+                  className="flex items-center justify-between font-bold text-black cursor-pointer text-xl "
+                >
+                  I will do school software project for developer students in
+                  HTML, CSS, JavaScript, React JS, Nodejs, other contact us
+                </p>
+                <div className="flex flex-wrap gap-3 p-4">
+                  {[
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "React JS",
+                    "FullStack Project",
+                    "NodeJS",
+                    "NextJs",
+                    "MongoDB",
+                    "Sql",
+                    "PHP",
+                  ].map((tag, index) => (
+                    <span
+                      key={index}
+                      className="bg-blue-500 text-white text-sm font-medium px-4 py-1.5 rounded-full shadow-md hover:bg-blue-600 transition-colors duration-300 cursor-pointer"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+            <div className="card w-[384px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
                 src={"/IMG-20250209-WA0003.jpg"}
                 width={384}
                 height={250}
-                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                className="object-fill w-full hover:scale-90 transition-all"
                 alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
                 <p
                   target="_blank"
-                  className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
+                  className="flex items-center justify-between font-bold text-black text-xl"
                 >
-                  छोटे व्यवसाय और स्टार्टअप{" "}
+                  I will write, edit your CV, resume, cover letter and linkedin
+                  profile
                 </p>
-                <p className="text-black/65 text-sm">
-                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
-                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
-                </p>
+                <div className="flex flex-wrap gap-3 p-4">
+                  {[
+                    "HR Consulting",
+                    "Recruitment",
+                    "CV Writing",
+                    "CV Editing",
+                    "Resume Design",
+                    "Proofreading",
+                    "Editing",
+                    "Career Advice",
+                    "Career Coaching",
+                    "HR Management",
+                  ].map((tag, index) => (
+                    <span
+                      key={index}
+                      className="bg-blue-500 text-white text-sm font-medium px-4 py-1.5 rounded-full shadow-md hover:bg-blue-600 transition-colors duration-300 cursor-pointer"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
-            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
+            <div className="card w-[384px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
                 src={"/Government-Jobs.png"}
                 width={384}
                 height={250}
-                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                className="object-fill w-full hover:scale-90 transition-all"
                 alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
                 <p
                   target="_blank"
-                  className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
+                  className="flex items-center justify-between font-bold text-black text-xl"
                 >
-                  छोटे व्यवसाय और स्टार्टअप{" "}
+                  I will search and apply for jobs on your behalf
                 </p>
-                <p className="text-black/65 text-sm">
-                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
-                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
-                </p>
+                <div className="flex flex-wrap gap-3 p-4">
+                  {[
+                    "HR Consulting",
+                    "Recruitment",
+                    "Linkedin recruiting",
+                    "Job application",
+                    "Job search",
+                    "Web research jobs",
+                    "Search & apply career consulting",
+                    "Resume design",
+                    "Job posting",
+                    "Private Job",
+                    "Industrial Jobs Any Fields",
+                  ].map((tag, index) => (
+                    <span
+                      key={index}
+                      className="bg-blue-500 text-white text-sm font-medium px-4 py-1.5 rounded-full shadow-md hover:bg-blue-600 transition-colors duration-300 cursor-pointer"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
-            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
-              <Image
-                src={"/IMG-20250209-WA0005.jpg"}
-                width={384}
-                height={250}
-                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
-                alt="ब्लॉग छवि"
-              />
 
-              <div className="content text-black">
-                <p
-                  target="_blank"
-                  className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
-                >
-                  छोटे व्यवसाय और स्टार्टअप{" "}
-                </p>
-                <p className="text-black/65 text-sm">
-                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
-                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
-                </p>
-              </div>
-            </div>
-            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
+            <div className="card w-[384px]  flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
               <Image
                 src={"/eBook.avif"}
                 width={384}
                 height={250}
-                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
+                className="object-fill w-full hover:scale-90 transition-all"
                 alt="ब्लॉग छवि"
               />
 
               <div className="content text-black">
                 <p
                   target="_blank"
-                  className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
+                  className="flex items-center justify-between font-bold text-black text-xl"
                 >
-                  छोटे व्यवसाय और स्टार्टअप{" "}
+                  Are you looking to transform your ordinary documents like
+                  EBooks/PDFs/Novels etc into engaging and visually enticing
+                  designs that are ready to publish and print ready?
                 </p>
-                <p className="text-black/65 text-sm">
-                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
-                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
-                </p>
-              </div>
-            </div>
-            <div className="card w-[384px] h-[300px] flex flex-col justify-around border-2 border-blue-600 p-3 rounded">
-              <Image
-                src={"/IMG-20250209-WA0001.jpg"}
-                width={384}
-                height={250}
-                className="object-fill w-full h-[60%] hover:scale-90 transition-all"
-                alt="ब्लॉग छवि"
-              />
 
-              <div className="content text-black">
-                <p
-                  target="_blank"
-                  className="flex items-center justify-between font-bold text-black hover:underline text-2xl hover:underline-offset-2 my-5"
-                >
-                  छोटे व्यवसाय और स्टार्टअप{" "}
-                </p>
-                <p className="text-black/65 text-sm">
-                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
-                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
-                </p>
+                <div className="flex flex-wrap gap-3 p-4">
+                  {[
+                    "Ebook Layout design",
+                    "eBook formatting and layout",
+                   "Book Formatting and Layout",
+                   "PDF edit"
+                  ].map((tag, index) => (
+                    <span
+                      key={index}
+                      className="bg-blue-500 text-white text-sm font-medium px-4 py-1.5 rounded-full shadow-md hover:bg-blue-600 transition-colors duration-300 cursor-pointer"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
+            <div className="card w-[384px] h-[400px] flex flex-col justify-between border-2 border-blue-600 p-3 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+  <Image
+    src={"/IMG-20250209-WA0001.jpg"}
+    width={384}
+    height={250}
+    className="object-cover w-full h-[60%] hover:scale-95 transition-transform rounded-md"
+    alt="ब्लॉग छवि"
+  />
+  <div className="content text-black mt-3">
+    <p className="flex items-center justify-between font-bold text-black hover:underline text-xl hover:underline-offset-2">
+      छोटे व्यवसाय और स्टार्टअप{" "}
+    </p>
+    <p className="text-black/65 text-sm my-2">
+      क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />
+      3 गुना सुपर बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
+    </p>
+    <div className="services flex flex-wrap gap-2 mt-3">
+      {["Flight Booking", "Bus Booking", "Railway Booking", "Other Services"].map((service, index) => (
+        <span
+          key={index}
+          className="bg-blue-500 text-white text-xs font-medium px-3 py-1 rounded-full shadow-md hover:bg-blue-600 transition-colors"
+        >
+          {service}
+        </span>
+      ))}
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </div>
