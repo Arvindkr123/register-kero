@@ -96,7 +96,7 @@ const MainHeader = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`fixed top-0 left-0 w-full h-full z-20 bg-black text-white p-10 overflow-x-hidden transform ${
+          className={`fixed top-0 left-0 w-1/2 h-full z-20 bg-black text-white p-10 overflow-x-hidden transform ${
             open ? "translate-x-0" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out`}
         >
