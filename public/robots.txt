@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://register-kero-pi.vercel.app/
+
+# Sitemaps
+Sitemap: https://register-kero-pi.vercel.app/sitemap.xml
