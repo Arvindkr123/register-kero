@@ -435,20 +435,17 @@ export default function Home() {
             </div>
             <div className="card w-[384px] h-[400px] flex flex-col justify-between border-2 border-blue-600 p-3 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <Image
-                src={"/IMG-20250209-WA0001.jpg"}
+                src={"/works/make-tour-booking-hotel-booking-bus-ticket-selling-seat-reservation-in-wp.png"}
                 width={384}
                 height={250}
-                className="object-cover w-full h-[60%] hover:scale-95 transition-transform rounded-md"
+                className="object-cover w-full hover:scale-95 transition-transform rounded-md"
                 alt="ब्लॉग छवि"
               />
               <div className="content text-black mt-3">
-                <p className="flex items-center justify-between font-bold text-black hover:underline text-xl hover:underline-offset-2">
-                  छोटे व्यवसाय और स्टार्टअप{" "}
+                <p className="flex items-center justify-between font-bold text-black text-xl">
+                I will make tour booking, hotel booking, bus ticket selling, seat reservation in wp
                 </p>
-                <p className="text-black/65 text-sm my-2">
-                  क्या आप जानना चाहते हैं कि 2-14 की टीम को <br />3 गुना सुपर
-                  बाउल जीतने वाले साम्राज्य में कैसे बदला जाता है?
-                </p>
+                
                 <div className="services flex flex-wrap gap-2 mt-3">
                   {[
                     "Flight Booking",
