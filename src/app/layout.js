@@ -1,4 +1,3 @@
-
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ContactHeader from "@/components/headers/Contact.header";
@@ -26,13 +25,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Online Help 24X7</title>
+        <meta name="description" content="we are online help to online work related form filling and ticket booking" />
+        <meta name="keywords" content="form filling, ticket booking, school projects, html, css, javascript, reactjs, mern stack, fullStack, ebook, resume, jobs, flight booking, busbooking, private job, job posting" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Online help 24X7" />
+        <meta property="og:description" content="A description for social media sharing." />
+        <meta property="og:url" content="https://register-kero-pi.vercel.app" />
+        <meta property="og:type" content="website" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden text-white`}
       >
         <ContactHeader />
         <MainHeader />
         {children}
-        <WhatsAppButton/>
+        <WhatsAppButton />
 
         {/* <Footer /> */}
       </body>
