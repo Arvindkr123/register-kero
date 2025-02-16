@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <div className="h-[585px] relative p-5 sm:p-20">
-        <video
+        {/* <video
           className="absolute inset-0 w-full aspect-video h-[585px]  object-cover -z-10"
           autoPlay
           loop
@@ -22,7 +22,14 @@ export default function Home() {
         >
           <source src="/queuevideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
+        <Image
+          src={"/works/logoWebsite.webp"}
+          alt="logo"
+          width={600}
+          height={600}
+          className="absolute inset-0 w-full h-full  object-fill -z-10"
+        />
 
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
@@ -435,7 +442,9 @@ export default function Home() {
             </div>
             <div className="card w-[384px] h-[400px] flex flex-col justify-between border-2 border-blue-600 p-3 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <Image
-                src={"/works/make-tour-booking-hotel-booking-bus-ticket-selling-seat-reservation-in-wp.png"}
+                src={
+                  "/works/make-tour-booking-hotel-booking-bus-ticket-selling-seat-reservation-in-wp.png"
+                }
                 width={384}
                 height={250}
                 className="object-cover w-full hover:scale-95 transition-transform rounded-md"
@@ -443,9 +452,10 @@ export default function Home() {
               />
               <div className="content text-black mt-3">
                 <p className="flex items-center justify-between font-bold text-black text-xl">
-                I will make tour booking, hotel booking, bus ticket selling, seat reservation in wp
+                  I will make tour booking, hotel booking, bus ticket selling,
+                  seat reservation in wp
                 </p>
-                
+
                 <div className="services flex flex-wrap gap-2 mt-3">
                   {[
                     "Flight Booking",
