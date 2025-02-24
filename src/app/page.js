@@ -81,19 +81,21 @@ export default function Home() {
         </video>
       </div>
 
-      <div id="jobsFormId" className="container mx-auto p-5 bg-white">
-        <h3 className="text-center text-xl text-red-600">
-          New Jobs Form Available
-        </h3>
-        <ul>
-          {JobsFormData.map((jobform, index) => {
-            return (
-              <li key={index} className="text-black hover:bg-slate-400 p-3">
-                <Link href={jobform?.thirdHref}>{jobform.second}</Link>
-              </li>
-            );
-          })}
-        </ul>
+      <div id="jobsFormId" className="bg-white">
+        <div className="container mx-auto p-5">
+          <h3 className="text-center text-xl text-red-600">
+            New Jobs Form Available
+          </h3>
+          <ul>
+            {JobsFormData.map((jobform, index) => {
+              return (
+                <li key={index} className="text-black hover:bg-slate-400 p-3">
+                  <Link href={jobform?.thirdHref}>{jobform.second}</Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
 
       {/* about section  */}
