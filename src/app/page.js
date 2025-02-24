@@ -4,6 +4,7 @@ import ContactUs from "@/components/contact-us/ContactUs";
 import FaqQuestions from "@/components/faq-questions/Faq-questions";
 import MainHero from "@/components/hero/MainHero";
 import ManageService from "@/components/manage_service/ManageService";
+import JobsFormComponents from "@/components/new-jobs-forms/JobsFormComponents";
 import { JobsFormData } from "@/components/new-jobs-forms/JobsFormData";
 
 import TestimonialSlider from "@/components/testimonial_sider/TestiMonialSider";
@@ -81,22 +82,7 @@ export default function Home() {
         </video>
       </div>
 
-      <div id="jobsFormId" className="bg-white">
-        <div className="container mx-auto p-5">
-          <h3 className="text-center text-xl text-red-600">
-            New Jobs Form Available
-          </h3>
-          <ul>
-            {JobsFormData.map((jobform, index) => {
-              return (
-                <li key={index} className="text-black hover:bg-slate-400 p-3">
-                  <Link href={jobform?.thirdHref}>{jobform.second}</Link>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </div>
+      <JobsFormComponents />
 
       {/* about section  */}
       <div

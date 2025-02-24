@@ -39,13 +39,13 @@ const JobsForms = () => {
               <span className="text-xl mx-2">🆕</span> {item?.second}
             </div>
           ))}
+          <button
+            onClick={() => setShowMoreJobs((prev) => prev + 10)}
+            className="bg-blue-600 text-white w-full my-3 rounded-md hover:bg-blue-500 "
+          >
+            show more
+          </button>
         </div>
-        <button
-          onClick={() => setShowMoreJobs((prev) => prev + 10)}
-          className="bg-blue-600 text-white w-full my-3 rounded-md"
-        >
-          show more
-        </button>
       </div>
 
       <footer className="bg-green-600 text-center p-3 text-sm sm:text-xl cursor-pointer">
