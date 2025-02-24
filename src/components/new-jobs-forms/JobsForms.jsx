@@ -5,6 +5,7 @@ import { useState } from "react";
 import { JobsFormData } from "./JobsFormData";
 
 const JobsForms = () => {
+  const [showMoreJobs, setShowMoreJobs] = useState(10);
   const [showJobsForm, setShowJobsForms] = useState(true);
   const handleClick = () => {
     window.open("https://wa.me/+919086269401", "_blank"); // Replace with your phone number
@@ -30,7 +31,7 @@ const JobsForms = () => {
           </button>
         </div>
         <div className="content text-black text-sm p-2 h-[28rem] overflow-y-auto">
-          {JobsFormData?.map((item, index) => (
+          {JobsFormData?.slice(0, showMoreJobs).map((item, index) => (
             <div
               key={index}
               className="jobscard text-red-700 hover:bg-slate-400"
@@ -39,6 +40,12 @@ const JobsForms = () => {
             </div>
           ))}
         </div>
+        <button
+          onClick={() => setShowMoreJobs((prev) => prev + 10)}
+          className="bg-blue-600 text-white w-full my-3 rounded-md"
+        >
+          show more
+        </button>
       </div>
 
       <footer className="bg-green-600 text-center p-3 text-sm sm:text-xl cursor-pointer">
