@@ -5,6 +5,7 @@ import MainHeader from "@/components/headers/MainHeader";
 import Footer from "@/components/footer/Footer";
 import Image from "next/image";
 import WhatsAppButton from "@/components/whats-appIcon";
+import JobsForms from "@/components/new-jobs-forms/JobsForms";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,11 +28,20 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Online Help 24X7</title>
-        <meta name="description" content="we are online help to online work related form filling and ticket booking" />
-        <meta name="keywords" content="form filling, ticket booking, school projects, html, css, javascript, reactjs, mern stack, fullStack, ebook, resume, jobs, flight booking, busbooking, private job, job posting" />
+        <meta
+          name="description"
+          content="we are online help to online work related form filling and ticket booking"
+        />
+        <meta
+          name="keywords"
+          content="form filling, ticket booking, school projects, html, css, javascript, reactjs, mern stack, fullStack, ebook, resume, jobs, flight booking, busbooking, private job, job posting"
+        />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Online help 24X7" />
-        <meta property="og:description" content="A description for social media sharing." />
+        <meta
+          property="og:description"
+          content="A description for social media sharing."
+        />
         <meta property="og:url" content="https://register-kero-pi.vercel.app" />
         <meta property="og:type" content="website" />
       </head>
@@ -42,7 +52,7 @@ export default function RootLayout({ children }) {
         <MainHeader />
         {children}
         <WhatsAppButton />
-
+        <JobsForms />
         {/* <Footer /> */}
       </body>
     </html>
