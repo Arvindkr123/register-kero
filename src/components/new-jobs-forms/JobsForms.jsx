@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { JobsFormData } from "./JobsFormData";
 
 const JobsForms = () => {
   const [showJobsForm, setShowJobsForms] = useState(true);
@@ -28,13 +29,13 @@ const JobsForms = () => {
             X
           </button>
         </div>
-        <div className="content text-black text-sm sm:text-xl p-2 h-[28rem] overflow-y-auto">
-          {Array.from({ length: 333 }).map((item) => (
+        <div className="content text-black text-sm p-2 h-[28rem] overflow-y-auto">
+          {JobsFormData?.map((item) => (
             <div
               key={item}
               className="jobscard text-red-700 hover:bg-slate-400"
             >
-              <span className="text-xl mx-2">🆕</span> it forms and others
+              <span className="text-xl mx-2">🆕</span> {item}
             </div>
           ))}
         </div>
@@ -42,19 +43,20 @@ const JobsForms = () => {
 
       <footer className="bg-green-600 text-center p-3 text-sm sm:text-xl cursor-pointer">
         Contact Us to fill forms By click on whatsApp Icon
-        <div
-          className="w-7 h-7 sm:w-20 sm:h-20 animate-bounce rounded-full border bg-black border-black fixed bottom-10 right-10 cursor-pointer"
-          onClick={handleClick}
-        >
-          <Image
-            src="/220px-WhatsApp.svg.webp"
-            className="w-full h-full"
-            width={20}
-            height={20}
-            alt="whatsapp logo"
-          />
-        </div>
       </footer>
+      <div
+        className="w-7 h-7 sm:w-20 sm:h-20 animate-bounce rounded-full border bg-black border-black fixed bottom-10 right-10 cursor-pointer"
+        onClick={handleClick}
+      >
+        {" "}
+        <Image
+          src="/220px-WhatsApp.svg.webp"
+          className="w-full h-full"
+          width={20}
+          height={20}
+          alt="whatsapp logo"
+        />
+      </div>
     </div>
   );
 };
