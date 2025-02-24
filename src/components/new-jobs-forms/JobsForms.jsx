@@ -30,12 +30,12 @@ const JobsForms = () => {
           </button>
         </div>
         <div className="content text-black text-sm p-2 h-[28rem] overflow-y-auto">
-          {JobsFormData?.map((item) => (
+          {JobsFormData?.map((item, index) => (
             <div
-              key={item}
+              key={index}
               className="jobscard text-red-700 hover:bg-slate-400"
             >
-              <span className="text-xl mx-2">🆕</span> {item}
+              <span className="text-xl mx-2">🆕</span> {item?.second}
             </div>
           ))}
         </div>
@@ -45,7 +45,7 @@ const JobsForms = () => {
         Contact Us to fill forms By click on whatsApp Icon
       </footer>
       <div
-        className="w-7 h-7 sm:w-20 sm:h-20 animate-bounce rounded-full border bg-black border-black fixed bottom-10 right-10 cursor-pointer"
+        className="w-7 h-7 sm:w-10 sm:h-10 animate-bounce rounded-full border bg-black border-black fixed bottom-10 right-10 cursor-pointer"
         onClick={handleClick}
       >
         {" "}

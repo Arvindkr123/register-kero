@@ -4,6 +4,7 @@ import ContactUs from "@/components/contact-us/ContactUs";
 import FaqQuestions from "@/components/faq-questions/Faq-questions";
 import MainHero from "@/components/hero/MainHero";
 import ManageService from "@/components/manage_service/ManageService";
+import { JobsFormData } from "@/components/new-jobs-forms/JobsFormData";
 
 import TestimonialSlider from "@/components/testimonial_sider/TestiMonialSider";
 import Image from "next/image";
@@ -78,6 +79,21 @@ export default function Home() {
           <source src="/queuevideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+      </div>
+
+      <div id="jobsFormId" className="container mx-auto p-5 bg-white">
+        <h3 className="text-center text-xl text-red-600">
+          New Jobs Form Available
+        </h3>
+        <ul>
+          {JobsFormData.map((jobform, index) => {
+            return (
+              <li key={index} className="text-black hover:bg-slate-400 p-3">
+                <Link href={jobform?.thirdHref}>{jobform.second}</Link>
+              </li>
+            );
+          })}
+        </ul>
       </div>
 
       {/* about section  */}

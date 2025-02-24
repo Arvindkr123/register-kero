@@ -21,7 +21,9 @@ const MainHeader = () => {
               priority
             />
           </div>
-        <p className="text-black text-2xl sm:text-4xl font-bold tracking-tight uppercase">OnlineHelp24X7</p>
+          <p className="text-black text-2xl sm:text-4xl font-bold tracking-tight uppercase">
+            OnlineHelp24X7
+          </p>
         </div>
 
         {/* Navigation Section */}
@@ -52,22 +54,10 @@ const MainHeader = () => {
             <li className="hover:text-orange-500 cursor-pointer">
               <Link href={"#aboutIdRegisterKero"}>About Us</Link>
             </li>
+            <li className="hover:text-orange-500 cursor-pointer">
+              <Link href={"#jobsFormId"}>JobsForms</Link>
+            </li>
           </ul>
-
-          {/* Search Icon */}
-          {/* <div className="cursor-pointer">
-            <Image
-              src="/searchLogo.png" // Ensure this file is in the "public" folder
-              alt="Search Icon"
-              width={20}
-              height={20}
-            />
-          </div> */}
-
-          {/* CTA Button */}
-          {/* <button className="bg-[#FFA229] text-white px-4 py-2 rounded-md hover:bg-[#FFA229]">
-            Talk An Expert
-          </button> */}
         </nav>
 
         {/* Mobile Menu Toggle Button */}
@@ -128,7 +118,6 @@ const MainHeader = () => {
             <div className="hover:text-orange-500 cursor-pointer">
               <Link href={"#aboutIdRegisterKero"}>About Us</Link>
             </div>
-            
           </div>
         </div>
       </div>
