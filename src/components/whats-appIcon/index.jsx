@@ -9,7 +9,7 @@ export default function WhatsAppButton() {
 
   return (
     <div
-      className="w-20 h-20 animate-bounce rounded-full border bg-black border-black fixed bottom-10 right-10 cursor-pointer"
+      className="w-10 sm:w-20 h-10 sm:h-20 animate-bounce rounded-full border bg-black border-black fixed bottom-10 right-10 cursor-pointer"
       onClick={handleClick}
     >
       <Image
