@@ -118,6 +118,9 @@ const MainHeader = () => {
             <div className="hover:text-orange-500 cursor-pointer">
               <Link href={"#aboutIdRegisterKero"}>About Us</Link>
             </div>
+            <div className="hover:text-orange-500 cursor-pointer">
+              <Link href={"#jobsFormId"}>JobsForms</Link>
+            </div>
           </div>
         </div>
       </div>
